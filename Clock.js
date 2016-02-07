@@ -6,7 +6,7 @@ function startTime() {
     var s = today.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    h = TwelveTime(h);
+    if (TwelveHour == true) {h = TwelveTime(h)};
     var t = setTimeout(startTime, 500);
     document.getElementById('txt').innerHTML = h + ":" + m;
 }
@@ -18,5 +18,6 @@ function checkTime(i) {
 
 function TwelveTime(h) {
     if (h >= 12) {h = h - 12};
+    if (h == 0) {h = 12};
     return h;
 }
