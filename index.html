@@ -12,11 +12,16 @@
                 m = checkTime(m);
                 s = checkTime(s);
                 var t = setTimeout(startTime, 500);
+                if (TwelveHourClock = true) {TwelveHour()};
             }
             
             function checkTime(i) {
                 if (i < 10) {i = "0" + i};
                 return i;
+            }
+            
+            function TwelveHour() {
+                if (h >= 12) {h = h-12};
             }
         </script>
     </head>

@@ -1,1 +1,1 @@
-var 
+var TwelveHourClock = true;
