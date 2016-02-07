@@ -13,7 +13,7 @@
                 s = checkTime(s);
                 var t = setTimeout(startTime, 500);
                 if (TwelveHourClock = true) {TwelveHour()};
-                document.getElementById('div').innerHTML = h + ":" + m;
+                document.getElementById('txt').innerHTML = h + ":" + m;
             }
             
             
@@ -29,6 +29,6 @@
     </head>
 
     <body onload="startTime()">
-        <div id="div"></div>
+        <div id="txt"></div>
     </body>
 </html>
