@@ -12,6 +12,7 @@ function startTime() {
     document.getElementById("txt").style.paddingTop = TopPadding + "px";
     document.getElementById("txt").style.fontSize = FontSize + "px";
     document.getElementById("txt").style.color = "#" + TextColor;
+    document.getElementById("txt").style.opacity = Opacity;
 }
 
 function checkTime(i) {
