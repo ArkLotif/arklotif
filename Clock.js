@@ -10,6 +10,8 @@ function startTime() {
     var t = setTimeout(startTime, 500);
     document.getElementById("txt").innerHTML = h + ":" + m;
     document.getElementById("txt").style.paddingTop = TopPadding + "px";
+    document.getElementById("txt").style.fontSize = FontSize + "px";
+    document.getElementById("txt").style.paddingTop = "#" + TextColor;
 }
 
 function checkTime(i) {
