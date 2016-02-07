@@ -13,7 +13,6 @@ function startTime() {
     document.getElementById("txt").style.fontSize = FontSize + "px";
     document.getElementById("txt").style.color = "#" + TextColor;
     document.getElementById("txt").style.opacity = Opacity;
-    document.getElementById("txt").style.border = BorderWidth + "px" solid TextColor;
 }
 
 function checkTime(i) {
