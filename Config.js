@@ -1,1 +1,1 @@
-var TwelveHourClock = true;
+var FontSize = 30;
