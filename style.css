@@ -1,7 +1,7 @@
 @font-face {
-    font-family: DevilBreezeBook;
-    src:url(Devil Breeze Book.ttf);
+    font-family: DBB;
+    src:url(DBB.ttf);
 }
 body {
-    font-family: DevilBreezeBook;
+    font-family: DBB;
 }
