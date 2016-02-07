@@ -1,2 +1,2 @@
 var FontSize = 100;
-var TwelveHour = true;
+var TwelveHour = false;
