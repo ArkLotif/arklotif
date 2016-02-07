@@ -1,1 +1,1 @@
-var FontSize = 30;
+var FontSize = 100;
