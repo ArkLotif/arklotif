@@ -1,3 +1,3 @@
-var FontSize = 80;
+var FontSize = 120;
 var TwelveHour = true;
-var TopPadding = 100;
+var TopPadding = 320;
