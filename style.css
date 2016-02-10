@@ -10,5 +10,5 @@ body {
     text-align: center;
 }
 div {
-    text-shadow: -1px -1px 0 #4a7093, 1px -1px 0 #4a7093, -1px 1px 0 #4a7093, 1px 1px 0 #4a7093;
+    text-shadow: -4px -4px 0 #4a7093, 4px -4px 0 #4a7093, -4px 4px 0 #4a7093, 4px 4px 0 #4a7093;
 }
