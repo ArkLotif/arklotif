@@ -1,13 +1,14 @@
 @font-face {
-    font-family: DBB;
-    src:url(DBB.ttf);
+    font-family: Coolvetica;
+    src:url(Coolvetica.ttf);
 }
 
 body {
-    font-family: DBB;
+    font-family: Coolvetica;
     margin: 0px;
     padding: 0px;
     text-align: center;
+    letter-spacing: 8px;
 }
 div {
 }
