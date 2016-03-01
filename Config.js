@@ -1,4 +1,4 @@
-var FontSize = 72; // In pixels
+var FontSize = 144; // In pixels
 var TopPadding = 200; // In pixels
 var TwelveHour = true;
 var TextColor = "000000"; // Hex code
