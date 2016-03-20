@@ -1,8 +1,9 @@
 body {
     background: #ff0000;
+    margin: 0px;
 }
 
-Header {
+#Header {
     height: 80px;
     background: #0000ff;
 }
