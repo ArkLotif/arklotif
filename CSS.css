@@ -1,4 +1,8 @@
+body {
+    background: #ff0000;
+}
+
 Header {
     height: 80px;
-    background: #ff0000;
+    background: #0000ff;
 }
