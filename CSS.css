@@ -21,14 +21,14 @@ body {
 }
 
 #Content {
-    Width: 800px;
+    Width: 1024px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #Taffy {
-    max-width: 50%;
-    max-height: 50%;
+    width: 512px;
+    height: 512px;
     float: left;
 }
 
