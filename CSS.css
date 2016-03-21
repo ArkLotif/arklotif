@@ -23,18 +23,17 @@ body {
 
 #About {
     background: #fafafa;
-    margin: 20px;
+    margin: 40px;
+    border-radius: 20px;
 }
 
 h1 {
     color: #222129;
-    margin-left: auto;
-    margin-right: auto;
     font-weight: 700;
+    text-align: center;
 }
 h2 {
     color: #222129;
-    margin-left: auto;
-    margin-right: auto;
     font-weight: 400;
+    text-align: center;
 }
