@@ -82,4 +82,12 @@ h2 {
         font-weight: 400;
         font-size: 32pt;
     }
+
+    #Skrilloo {
+        margin: 40px;
+    }
+
+    #SkrillooImage {
+        border-radius: 16px;
+    }
 }
