@@ -2,6 +2,7 @@ body {
     background: #222129;
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 #Header {
@@ -21,10 +22,19 @@ body {
 }
 
 #About {
-    background: #eee;
+    background: #fafafa;
     margin: 20px;
 }
 
 h1 {
-    color: aqua;
+    color: #222129;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+}
+h2 {
+    color: #222129;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 400;
 }
