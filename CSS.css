@@ -44,19 +44,12 @@ h1 {
 #Biscuit {
     width: 256px;
     height: 256px;
-    position: absolute;
-    left: 256px;
 }
 
 #BiscuitImage {
     max-width: 100%;
     max-height: 100%;
     border-radius: 8px;
-}
-
-#Label {
-    background: #fff;
-    width: 256px;
 }
 
 #Taffy {
@@ -73,8 +66,6 @@ h1 {
 #Slushi {
     width: 256px;
     height: 256px;
-    position: absolute;
-    right: 256px;
 }
 
 #SlushiImage {
@@ -86,8 +77,6 @@ h1 {
 #Skrilloo {
     width: 256px;
     height: 256px;
-    position: absolute;
-    top: 1000px;
 }
 
 #SkrillooImage {
