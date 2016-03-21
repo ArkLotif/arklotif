@@ -45,9 +45,9 @@ h2 {
 
 #Skrilloo {
     margin: 20px;
-    padding: 20px;
     border-radius: 8px;
     display: block;
+    max-height: 100%;
 }
 
 
