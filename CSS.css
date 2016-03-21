@@ -1,9 +1,11 @@
 body {
-    background: #ff0000;
+    background: #fff;
     margin: 0px;
 }
 
 #Header {
     height: 80px;
-    background: #0000ff;
+    background: -moz-linear-gradient(-45deg,  #33bbff 0%, #7733ff 100%);
+    background: -webkit-linear-gradient(-45deg,  #33bbff 0%,#7733ff 100%);
+    background: linear-gradient(135deg,  #33bbff 0%,#7733ff 100%);
 }
