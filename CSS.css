@@ -43,7 +43,7 @@ h2 {
     font-size: 32pt;
 }
 
-@media screen and (max-width: 500pt) {
+@media screen and (max-width: 1080px) {
     h1 {
         font-size: 32pt;
     }
