@@ -52,7 +52,6 @@ body {
     height: 256px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
 }
 
 #TaffyImage {
@@ -73,6 +72,7 @@ body {
     width: 256px;
     height: 256px;
     float: right;
+    margin-top: -256px;
 }
 
 #SlushiImage {
