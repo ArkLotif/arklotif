@@ -21,7 +21,6 @@ body {
 }
 
 #Table {
-    display: inline-block;
     margin: 20px;
 }
 
@@ -29,13 +28,11 @@ body {
     max-width: 50%;
     max-height: 50%;
     float: left;
-    padding-right: 20px;
 }
 
 #TaffyImage {
-    max-width: 100%;
-    max-height: 100%;
     border-radius: 8px;
+    padding: 20px;
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -50,13 +47,11 @@ body {
     width: 50%;
     height: 50%;
     float: right;
-    padding-left: 20px;
 }
 
 #SlushiImage {
-    max-width: 100%;
-    max-height: 100%;
     border-radius: 8px;
+    padding: 20px;
     user-drag: none; 
     user-select: none;
     -moz-user-select: none;
