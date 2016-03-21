@@ -31,6 +31,8 @@ body {
 }
 
 #TaffyImage {
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 8px;
     padding: 20px;
     user-select: none;
@@ -50,6 +52,8 @@ body {
 }
 
 #SlushiImage {
+    max-width: 100%;
+    max-height: 100%;
     border-radius: 8px;
     padding: 20px;
     user-drag: none; 
