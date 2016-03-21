@@ -20,13 +20,6 @@ body {
     margin-right: auto;
 }
 
-#TaffyHeader {
-    background: #fff;
-    width: 50%;
-    height: 50%;
-    float: left;
-}
-
 #Taffy {
     width: 50%;
     height: 50%;
@@ -34,7 +27,6 @@ body {
 }
 
 #TaffyImage {
-    margin: 20px;
     max-width: 100%;
     max-height: 100%;
     border-radius: 8px;
@@ -53,7 +45,6 @@ body {
 }
 
 #SlushiImage {
-    margin: 20px;
     max-width: 100%;
     max-height: 100%;
     border-radius: 8px;
