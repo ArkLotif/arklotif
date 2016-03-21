@@ -35,6 +35,7 @@ h1 {
 #Biscuit {
     width: 256px;
     height: 256px;
+    margin: 0;
 }
 
 #BiscuitImage {
