@@ -1,8 +1,8 @@
 body {
-    background: #494b4c; /* Old browsers */
-    background: -moz-linear-gradient(-45deg,  #494b4c 0%, #3c3d40 100%);
-    background: -webkit-linear-gradient(-45deg,  #494b4c 0%,#3c3d40 100%);
-    background: linear-gradient(135deg,  #494b4c 0%,#3c3d40 100%);
+    background: #4c6666; /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  #4c6666 0%, #222129 100%);
+    background: -webkit-linear-gradient(-45deg,  #4c6666 0%,#222129 100%);
+    background: linear-gradient(135deg,  #4c6666 0%,#222129 100%);
     margin: 0px;
 }
 
