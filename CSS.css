@@ -27,7 +27,7 @@ h1 {
 
 #Content {
     margin-top: 20px;
-    Width: 1044px;
+    Width: 808px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -35,7 +35,6 @@ h1 {
 #Biscuit {
     width: 256px;
     height: 256px;
-    float: left;
 }
 
 #BiscuitImage {
