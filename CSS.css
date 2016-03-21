@@ -22,6 +22,7 @@ body {
 
 #Table {
     display: table;
+    column-count: 2;
 }
 
 #Taffy {
