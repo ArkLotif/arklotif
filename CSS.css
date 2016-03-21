@@ -34,7 +34,7 @@ h1 {
 
 #Row1 {
     display: flex;
-    
+    margin-top: 40px;
 }
 
 #Row2 {
