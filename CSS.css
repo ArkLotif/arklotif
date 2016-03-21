@@ -47,6 +47,12 @@ body {
     -ms-user-drag: none;
 }
 
+h1 {
+    color: #222129;
+    background: #fff;
+    margin: 20px;
+}
+
 #Taffy {
     width: 256px;
     height: 256px;
