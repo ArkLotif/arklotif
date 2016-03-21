@@ -24,7 +24,7 @@ body {
     width: 50%;
     height: 50%;
     float: left;
-    padding: 20px;
+    margin: 20px;
 }
 
 #TaffyImage {
@@ -43,7 +43,7 @@ body {
     width: 50%;
     height: 50%;
     float: right;
-    padding: 20px;
+    margin: 20px;
 }
 
 #SlushiImage {
