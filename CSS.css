@@ -28,6 +28,7 @@ body {
     max-width: 50%;
     max-height: 50%;
     float: left;
+    padding-right: 20px;
 }
 
 #TaffyImage {
@@ -48,6 +49,7 @@ body {
     width: 50%;
     height: 50%;
     float: right;
+    padding-left: 20px;
 }
 
 #SlushiImage {
