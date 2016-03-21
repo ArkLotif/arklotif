@@ -20,11 +20,14 @@ body {
     margin-right: auto;
 }
 
-#SocialMediaBar {
-    Width: 100%;
-    padding: 10px;
-    background: #fff;
-    text-align: center;
+#Taffy {
+    margin: 20px;
+}
+
+#TaffyImage {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
 }
 
 #Skrilloo {
