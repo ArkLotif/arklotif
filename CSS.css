@@ -38,7 +38,7 @@ h1 {
 }
 
 #Row2 {
-    display: none;
+    display: flex;
 }
 
 #Biscuit {
