@@ -27,7 +27,7 @@ h1 {
 
 #Content {
     margin-top: 20px;
-    width: 808px;
+    width: 848px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -44,7 +44,7 @@ h1 {
 #Biscuit {
     width: 256px;
     height: 256px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 #BiscuitImage {
@@ -67,7 +67,7 @@ h1 {
 #Slushi {
     width: 256px;
     height: 256px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 #SlushiImage {
