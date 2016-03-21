@@ -24,13 +24,15 @@ body {
     width: 50%;
     height: 50%;
     float: left;
+    position: relative;
+    padding: 0;
+    margin: 0 15px 30px 15px;
 }
 
 #TaffyImage {
     max-width: 100%;
     max-height: 100%;
     border-radius: 8px;
-    padding: 20px;
     user-drag: none; 
     user-select: none;
     -moz-user-select: none;
@@ -43,13 +45,15 @@ body {
     width: 50%;
     height: 50%;
     float: right;
+    position: relative;
+    padding: 0;
+    margin: 0 15px 30px 15px;
 }
 
 #SlushiImage {
     max-width: 100%;
     max-height: 100%;
     border-radius: 8px;
-    padding: 20px;
     user-drag: none; 
     user-select: none;
     -moz-user-select: none;
