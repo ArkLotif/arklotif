@@ -1,19 +1,11 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
-<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="512.000000pt" height="512.000000pt" viewBox="0 0 512.000000 512.000000"
- preserveAspectRatio="xMidYMid meet">
-<metadata>
-Created by potrace 1.11, written by Peter Selinger 2001-2013
-</metadata>
-<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)"
-fill="#000000" stroke="none">
-<path d="M0 2560 l0 -2560 2560 0 2560 0 0 2560 0 2560 -2560 0 -2560 0 0
--2560z m2805 690 c17 -10 39 -34 50 -52 19 -32 20 -53 23 -535 l3 -502 342 -3
-c331 -3 343 -4 377 -25 47 -29 74 -77 74 -133 0 -56 -27 -104 -74 -133 -35
--22 -40 -22 -480 -22 -440 0 -445 0 -480 22 -19 12 -44 37 -55 55 -19 31 -20
-54 -23 422 l-3 390 -437 -436 c-384 -384 -442 -438 -479 -448 -118 -31 -224
-75 -193 193 10 37 77 107 598 629 457 456 595 589 622 597 44 12 96 5 135 -19z"/>
-</g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-223 25 512 512" style="enable-background:new -223 25 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<path class="st0" d="M129.5,352.5c0,0-71.2,0-80,0c-8.8,0-16-7.2-16-16c0-5.2,0-43.1,0-73.4C1.7,295-46.9,343.5-51.2,347.8
+	c-6.2,6.2-16.4,6.2-22.6,0c-6.2-6.2-6.2-16.4,0-22.6c6.2-6.2,105.8-105.8,112-112s16.4-6.2,22.6,0c3.1,3.1,4.7,7.2,4.7,11.3l0,0v96
+	h64c8.8,0,16,7.2,16,16C145.5,345.3,138.3,352.5,129.5,352.5z"/>
 </svg>
