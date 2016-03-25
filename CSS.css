@@ -80,5 +80,9 @@ h1 {
     #AllDivs {
         margin: 0px 0px 40px 0px;
     }
+
+    #Images {
+    border-radius: 16px;
+}
     
 }
