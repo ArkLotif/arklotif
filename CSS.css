@@ -82,6 +82,10 @@ h1 {
         height: 512px;
         margin: 0px 0px 40px 0px;
     }
+    
+    #BiscuitImage {
+        src: url(Images/Biscuit/Biscuit512.png);
+    }
 
     .Images {
         max-width: 100%;
