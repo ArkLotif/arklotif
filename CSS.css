@@ -37,9 +37,14 @@ h1 {
     margin-bottom: 40px;
 }
 
-.AllDivs {
+.TwoFiveSix {
     width: 256px;
     height: 256px;
+}
+
+.FiveOneTwo {
+    width: 512px;
+    height: 512px;
 }
 
 .LeftDiv {
@@ -81,10 +86,6 @@ h1 {
         width: 512px;
         height: 512px;
         margin: 0px 0px 40px 0px;
-    }
-    
-    #BiscuitImage {
-        src: url(Images/Biscuit/Biscuit512.png);
     }
 
     .Images {
