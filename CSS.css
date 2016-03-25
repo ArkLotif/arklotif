@@ -32,13 +32,9 @@ h1 {
     margin-right: auto;
 }
 
-#Row1 {
+#Row1, #Row2 {
     display: flex;
     margin-bottom: 40px;
-}
-
-#Row2 {
-    display: flex;
 }
 
 #Biscuit {
@@ -127,8 +123,9 @@ h1 {
         
     }
     
-    #Content {
+    #Row1, #Row2 {
         display: block;
+        margin: 0px;
     }
     
     #Biscuit, #Taffy, #Slushi, #Skrillex, #Face {
