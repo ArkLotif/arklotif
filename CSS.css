@@ -91,7 +91,7 @@ h1 {
         width: 512px;
         height: 512px;
         display: block;
-        margin-bottom: 40px;
+        margin: 0px 0px 40px 0px;
     }
 
     .Images {
