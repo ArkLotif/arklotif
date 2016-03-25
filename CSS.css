@@ -18,7 +18,7 @@ h1 {
 }
 
 #Logo {
-    background-image: url(Images/Header.png);
+    background-image: url(Images/Header/Header.png);
     width: 144px;
     height: 144px;
     margin-left: auto;
@@ -68,7 +68,7 @@ h1 {
     }
     
     #Logo {
-        background-image: url(Images/HeaderMobile.png);
+        background-image: url(Images/Header/HeaderMobile.png);
         width: 216px;
         height: 216px;
     }
