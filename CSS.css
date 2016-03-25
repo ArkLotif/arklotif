@@ -127,14 +127,14 @@ h1 {
         
     }
     
+    #Content {
+        display: block;
+    }
+    
     #Biscuit, #Taffy, #Slushi, #Skrillex, #Face {
         width: 256px;
         height: 256px;
         margin: 0px 0px 40px 0px;
     }
     
-    #BiscuitImage, #TaffyImage, #SlushiImage, #SkrillexImage, #FaceImage {
-        width: 256px;
-        height: 256px;
-    }
 }
