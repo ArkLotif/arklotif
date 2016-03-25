@@ -111,7 +111,7 @@ h1 {
     border-radius: 8px;
 }
 
-@media screen and (max-width: 800) {
+@media screen and (max-width: 1080px) {
     #Header {
         height: 216px;
     }
@@ -120,6 +120,11 @@ h1 {
         background-image: url(Images/HeaderMobile.png);
         width: 216px;
         height: 216px;
+    }
+    
+    #Content {
+    width: 256px;
+        
     }
     
     #Biscuit, #Taffy, #Slushi, #Skrillex, #Face{
