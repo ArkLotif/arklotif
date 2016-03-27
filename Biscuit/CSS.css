@@ -39,10 +39,14 @@ h1 {
     height: 1024px;
 }
 
-.link a {
+.Button {
     width: 512px;
-    text-align: center;
-    background: #fff;
+    margin: 0px auto;
+    background: #47e0ff;
+}
+
+.Button a {
+    color: #fff;
 }
 
 @media screen and (max-width: 1080px) {
