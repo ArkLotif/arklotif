@@ -27,13 +27,6 @@ body {
     border: 40px solid #fff;
 }
 
-h1 {
-    color: #222129;
-    text-align: center;
-    background: #fff;
-    margin: 0px;
-}
-
 #Image {
     width: 1024px;
     height: 1024px;
@@ -41,12 +34,13 @@ h1 {
 
 #Button {
     width: 512px;
-    margin: 0px auto;
-    background: #47e0ff;
+    background: #3d6dcc;
+    height: 128px;
 }
 
 #Button a {
     color: #fff;
+    text-align: center;
 }
 
 @media screen and (max-width: 1080px) {
