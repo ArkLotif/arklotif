@@ -12,6 +12,7 @@ h1 {
 #Shot {
     width: 1064px;
     margin: 40px auto 40px auto;
+    border-radius: 20px;
 }
 #Image {
     width: 1024px;
