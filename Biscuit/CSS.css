@@ -4,18 +4,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    color: #222129;
-    text-align: center;
-    background: #fff;
-    margin: 0px;
-}
-
 #Shot {
     width: 1104px;
     margin: auto;
     border: 40px solid #fff;
 }
+
+h1 {
+    color: #222129;
+    text-align: center;
+    background: #fff;
+    margin: 0px;
+    width: 1024px;
+}
+
 #Image {
     width: 1024px;
     height: 1024px;
