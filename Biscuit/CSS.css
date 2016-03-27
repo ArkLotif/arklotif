@@ -39,6 +39,12 @@ h1 {
     height: 1024px;
 }
 
+.link {
+    width: 512px;
+    text-align: center;
+    background: #fff;
+}
+
 @media screen and (max-width: 1080px) {
     #Header {
         height: 216px;
