@@ -38,3 +38,15 @@ h1 {
     width: 1024px;
     height: 1024px;
 }
+
+@media screen and (max-width: 1080px) {
+    #Header {
+        height: 216px;
+    }
+    
+    #Logo {
+        background-image: url(Images/Header/HeaderMobile.png);
+        width: 216px;
+        height: 216px;
+    }
+}
