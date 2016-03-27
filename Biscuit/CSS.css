@@ -21,6 +21,7 @@ body {
 }
 
 #Shot {
+    height: 1024px;
     width: 1024px;
     margin: 40px auto;
     border: 40px solid #fff;
