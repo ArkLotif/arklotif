@@ -5,7 +5,7 @@ body {
 }
 
 #Shot {
-    width: 1104px;
+    width: 1024px;
     margin: auto;
     border: 40px solid #fff;
 }
@@ -15,7 +15,6 @@ h1 {
     text-align: center;
     background: #fff;
     margin: 0px;
-    width: 1024px;
 }
 
 #Image {
