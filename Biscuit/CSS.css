@@ -7,7 +7,8 @@ body {
 h1 {
     color: #222129;
     text-align: center;
-    margin: 10px 0px;
+    background: #fff;
+    margin: 0px;
 }
 
 #Shot {
