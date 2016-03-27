@@ -39,13 +39,13 @@ h1 {
     height: 1024px;
 }
 
-.Button {
+#Button {
     width: 512px;
     margin: 0px auto;
     background: #47e0ff;
 }
 
-.Button a {
+#Button a {
     color: #fff;
 }
 
