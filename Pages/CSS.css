@@ -1,0 +1,102 @@
+body {
+    background: #222129;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #222129;
+    text-align: center;
+}
+
+#Header {
+    height: 144px;
+    background: #3355ff;
+    background: -moz-linear-gradient(-45deg,  #33bbff 0%, #7733ff 100%);
+    background: -webkit-linear-gradient(-45deg,  #33bbff 0%,#7733ff 100%);
+    background: linear-gradient(135deg,  #33bbff 0%,#7733ff 100%);
+}
+
+#Logo {
+    background-image: url(Images/Header/Header.png);
+    width: 144px;
+    height: 144px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Content {
+    margin-top: 40px;
+    width: 848px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Rows {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.TwoFiveSix {
+    width: 256px;
+    height: 256px;
+    display: block;
+}
+
+.FiveOneTwo {
+    display: none;
+}
+
+.LeftDiv {
+    margin-right: 40px;
+}
+
+.RightDiv {
+    margin-left: 40px;
+}
+
+.Images {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 1080px) {
+    #Header {
+        height: 216px;
+    }
+    
+    #Logo {
+        background-image: url(Images/Header/HeaderMobile.png);
+        width: 216px;
+        height: 216px;
+    }
+    
+    #Content {
+    width: 512px;
+        margin-top: 80px;
+    }
+    
+    .Rows {
+        display: block;
+        margin: 0px;
+    }
+
+    .TwoFiveSix {
+        display: none;
+    }
+
+    .FiveOneTwo {
+        width: 512px;
+        height: 512px;
+        display: block;
+        margin: 0px 0px 80px 0px;
+    }
+
+    .Images {
+        max-width: 100%;
+        max-height: 100%;
+        border-radius: 16px;
+    }
+    
+}
