@@ -32,14 +32,14 @@ body {
     height: 1024px;
 }
 
-#Button {
+.Button {
     margin: 40px 0px;
     width: 512px;
     background: #47c2ff;
     height: 64px;
 }
 
-#Button a {
+.Button a {
     color: #fff;
     text-align: center;
     margin: auto;
