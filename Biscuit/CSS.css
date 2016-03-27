@@ -12,7 +12,8 @@ h1 {
 
 #Shot {
     width: 1104px;
-    margin: 40px auto 40px auto;
+    margin: auto;
+    border: 40px solid #fff;
 }
 #Image {
     width: 1024px;
