@@ -4,11 +4,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    color: #222129;
-    text-align: center;
-}
-
 #Header {
     height: 144px;
     background: #3355ff;
