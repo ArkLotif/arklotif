@@ -42,6 +42,7 @@ body {
     font-size: 24px;
     width: 512px;
     height: 32px;
+    vertical-align: bottom;
 }
 
 @media screen and (max-width: 1080px) {
