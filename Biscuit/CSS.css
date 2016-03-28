@@ -26,15 +26,15 @@ body {
 }
 
 #Image {
-    max-height: 1024px;
-    max-width: 1024px;
+    height: 1024px;
+    width: 1024px;
 }
 
 #Desktop {   
     display: inline-block;
     background: #47c2ff;
     color: #fff;
-    max-width: 1024px;
+    width: 1024px;
     margin: 40px auto;
     padding: 10px 0px;
     text-align: center;
@@ -52,7 +52,7 @@ body {
         display: inline-block;
         background: #47c2ff;
         color: #fff;
-        max-width: 1024px;
+        width: 1024px;
         margin: 40px auto;
         padding: 5px 0px;
         text-align: center;
