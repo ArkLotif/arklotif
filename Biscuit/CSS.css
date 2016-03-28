@@ -47,6 +47,10 @@ body {
 }
 
 @media screen and (max-width: 1080px) {
+    #Content {
+        padding: 40px;
+    }
+    
     #Mobile {   
         display: inline-block;
         background: #47c2ff;
