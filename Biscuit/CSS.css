@@ -30,6 +30,10 @@ body {
     height: 1024px;
 }
 
+#Mobile {
+    display: none;
+}
+
 .Button {   
     display: inline-block;
     background: #47c2ff;
@@ -43,15 +47,20 @@ body {
 }
 
 @media screen and (max-width: 1080px) {
-.Button {   
-    display: inline-block;
-    background: #47c2ff;
-    color: #fff;
-    width: 1024px;
-    margin: 40px auto;
-    padding: 0px 0px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 73px;
-}
+    .Button {   
+        display: inline-block;
+        background: #47c2ff;
+        color: #fff;
+        width: 1024px;
+        margin: 40px auto;
+        padding: 0px 0px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 73px;
+    }
+
+    #Desktop {
+        display: none;
+    }
+
 }
