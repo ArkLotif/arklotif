@@ -26,15 +26,15 @@ body {
 }
 
 #Image {
-    height: 1024px;
-    width: 1024px;
+    max-height: 1024px;
+    max-width: 1024px;
 }
 
 #Desktop {   
     display: inline-block;
     background: #47c2ff;
     color: #fff;
-    width: 1024px;
+    max-width: 1024px;
     margin: 40px auto;
     padding: 10px 0px;
     text-align: center;
@@ -47,15 +47,12 @@ body {
 }
 
 @media screen and (max-width: 1080px) {
-    #Content {
-        padding: 40px;
-    }
     
     #Mobile {   
         display: inline-block;
         background: #47c2ff;
         color: #fff;
-        width: 1024px;
+        max-width: 1024px;
         margin: 40px auto;
         padding: 5px 0px;
         text-align: center;
