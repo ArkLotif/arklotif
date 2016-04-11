@@ -30,7 +30,7 @@ body {
     width: 1024px;
 }
 
-#Desktop {   
+#Link {   
     display: inline-block;
     background: #47c2ff;
     color: #fff;
@@ -42,13 +42,9 @@ body {
     font-size: 37px;
 }
 
-#Mobile {
-    display: none;
-}
-
 @media screen and (max-width: 1080px) {
     
-    #Mobile {   
+    #Link {   
         display: inline-block;
         background: #47c2ff;
         color: #fff;
@@ -58,9 +54,5 @@ body {
         text-align: center;
         text-decoration: none;
         font-size: 72px;
-    }
-
-    #Desktop {
-        display: none;
     }
 }
