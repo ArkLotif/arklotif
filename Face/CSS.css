@@ -1,0 +1,58 @@
+body {
+    background: #222129;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Header {
+    height: 144px;
+    background: #3355ff;
+    background: -moz-linear-gradient(-45deg,  #33bbff 0%, #7733ff 100%);
+    background: -webkit-linear-gradient(-45deg,  #33bbff 0%,#7733ff 100%);
+    background: linear-gradient(135deg,  #33bbff 0%,#7733ff 100%);
+}
+
+#Logo {
+    background-image: url(http://arklotif.github.io/Images/Header/Header.png);
+    width: 144px;
+    height: 144px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Content {
+    width: 1024px;
+    margin: 40px auto 0px auto;
+}
+
+#Image {
+    height: 1024px;
+    width: 1024px;
+}
+
+#Link {   
+    display: inline-block;
+    background: #47c2ff;
+    color: #fff;
+    width: 1024px;
+    margin: 40px auto;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 37px;
+}
+
+@media screen and (max-width: 1080px) {
+    
+    #Link {   
+        display: inline-block;
+        background: #47c2ff;
+        color: #fff;
+        width: 1024px;
+        margin: 40px auto;
+        padding: 5px 0px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 72px;
+    }
+}
