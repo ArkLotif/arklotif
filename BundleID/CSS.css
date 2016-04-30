@@ -21,7 +21,6 @@ body {
     background: -webkit-linear-gradient(-45deg,  #33bbff 0%,#7733ff 100%);
     background: linear-gradient(135deg,  #33bbff 0%,#7733ff 100%);
     max-width: 800px;
-    background: #fff;
     padding: 20px 0;
     min-height: 400px;
     border-radius: 8px;
