@@ -15,10 +15,9 @@ body {
 }
 
 #page {
-    margin: 0px auto;
+    margin: 20px auto;
     background: #fff;    
     max-width: 800px;
-    padding: 20px 0;
     min-height: 400px;
     border-radius: 8px;
 }
