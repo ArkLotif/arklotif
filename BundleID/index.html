@@ -69,9 +69,6 @@
     	-webkit-appearance: textfield;
     	font: inherit;
 	}
-	#search:focus {
-        outline: none
-	}
 	#searchform button {
 		margin-left: 10px;
 		font-family: inherit;
@@ -83,6 +80,9 @@
 	    background-color: #E6E6E6;
 	    text-decoration: none;
 	    border-radius: 2px;
+	}
+    #search:focus, #searchform button:focus {
+        outline: none;
 	}
 	table {
 		border-collapse: collapse;
