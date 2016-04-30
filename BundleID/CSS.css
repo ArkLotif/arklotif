@@ -38,32 +38,40 @@ body {
 #search {
     width: calc(100% - 140px);
     border: 1px solid #ccc;
+    border-radius: 2em;
     padding: .5em 1em;
     -webkit-appearance: textfield;
     font: inherit;
 }
-	#searchform button {
-		margin-left: 10px;
-		font-family: inherit;
-	    font-size: 100%;
-	    padding: .5em 1em;
-	    color: #444;
-	    border: 1px solid #999;
-	    border: 0 rgba(0,0,0,0);
-	    background-color: #E6E6E6;
-	    text-decoration: none;
-	    border-radius: 2px;
-	}
-    #search:focus, #searchform button:focus {
-        outline: none;
-	}
-	table {
-		border-collapse: collapse;
-		width: 100%
-	}
-	table tr:nth-child(odd) {
-		background: #eee;
-	}
+#searchform button {
+    margin-left: 10px;
+    font-family: inherit;
+    font-size: 100%;
+    padding: .5em 1em;
+    color: #444;
+    border: 1px solid #999;
+    border: 0 rgba(0,0,0,0);
+    background-color: #E6E6E6;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+#search:focus, #searchform button:focus {
+    outline: none;
+}
+
+#searchform button:focus {
+    background-color: #eee;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%
+}
+
+table tr:nth-child(odd) {
+    background: #eee;
+}
 	table td {
 		padding: 10px;
 		box-sizing: border-box;
