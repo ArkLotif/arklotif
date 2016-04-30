@@ -1,9 +1,9 @@
 body {
-		background: #222129;
-		font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
-		margin: 0;
-		padding: 0;
-	}
+    background: #222129;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
+    margin: 0;
+    padding: 0;
+}
 
 @media screen and (max-width: 480px) {
     body {
@@ -15,7 +15,7 @@ body {
 }
 
 #page {
-    margin: 20px auto;
+    margin: 0px auto;
     background: #fff;    
     max-width: 800px;
     padding: 20px 0;
