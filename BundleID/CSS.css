@@ -59,7 +59,7 @@ body {
     outline: none;
 }
 
-#searchform button:focus {
+#searchform button:active {
     background-color: #eee;
 }
 
