@@ -28,20 +28,20 @@ body {
     margin: 0 auto;
     width: 100%;
     box-sizing: border-box;
-	}
-	#search, #searchform button {
-		display: inline-block;
-		vertical-align: bottom;
-	}
-	#search {
-		width: calc(100% - 140px);
-		border: 1px solid #ccc;
-    	box-shadow: inset 0 1px 3px #ddd;
-	    border-radius: 2em;
-    	padding: .5em 1em;
-    	-webkit-appearance: textfield;
-    	font: inherit;
-	}
+}
+
+#search, #searchform button {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+#search {
+    width: calc(100% - 140px);
+    border: 1px solid #ccc;
+    padding: .5em 1em;
+    -webkit-appearance: textfield;
+    font: inherit;
+}
 	#searchform button {
 		margin-left: 10px;
 		font-family: inherit;
