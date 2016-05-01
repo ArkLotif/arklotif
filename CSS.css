@@ -17,8 +17,13 @@ body {
 #ArkLotifTop {
     width: 50px;
 }
+
 #TwitterTop {
     width: 39px;
+}
+
+#AboutTop {
+    float: right;
 }
 
 .topbaricons {
