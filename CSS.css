@@ -101,6 +101,10 @@ body {
     background: url(Images/Shots/MP/256.png);
 }
 
+#VR {
+    background: url(Images/Shots/VR/256.png);
+}
+
 #2Face {
     background: url(Images/Shots/2Face/256.png);
     width: 560px;
