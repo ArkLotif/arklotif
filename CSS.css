@@ -39,8 +39,12 @@ body {
 }
 
 #Content {
-    margin-top: 40px;
-    width: 848px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 40px auto 40px auto;
+    width: 800px;
+}
+.Shot {
+    width: 512px;
+    height: 512px;
+    background: #fff;
+    box-shadow: 0px 0px 8px #1a1a1a;
 }
