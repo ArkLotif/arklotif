@@ -13,8 +13,8 @@ body {
     padding: 16px;
 }
 
-#ArkLotif {
-    
+#ArkLotifTop, #TwitterTop {
+    margin-right: 32px;
 }
 
 #Content {
