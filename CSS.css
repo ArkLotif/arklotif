@@ -22,8 +22,7 @@ body {
     width: 39px;
 }
 
-#AboutTop {
-    float: right;
+#AboutTop a {
     line-height: 32px;
     font-size: 100%;
     color: #fff;
