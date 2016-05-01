@@ -42,6 +42,7 @@ body {
     margin: 40px auto 40px auto;
     width: 816px;
     display: table;
+    text-align: center;
 }
 
 .Shot {
