@@ -5,12 +5,12 @@ body {
 }
 
 #TopBar {
-    height: 64px;
+    height: 32px;
     background: #33bbff;
     background: -moz-linear-gradient(-45deg,  #33bbff 0%, #7733ff 100%);
     background: -webkit-linear-gradient(-45deg,  #33bbff 0%,#7733ff 100%);
     background: linear-gradient(135deg,  #33bbff 0%,#7733ff 100%);
-    padding: 32px;
+    padding: 9px;
 }
 
 #ArkLotif {
