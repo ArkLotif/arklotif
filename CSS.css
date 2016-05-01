@@ -41,10 +41,11 @@ body {
 #Content {
     margin: 40px auto 40px auto;
     width: 944px;
-    display: flex;
+    display: table;
 }
 
 .Shot {
+    display: inline-block;
     width: 256px;
     height: 256px;
     border: 8px solid #fff;
