@@ -22,18 +22,6 @@ body {
     width: 39px;
 }
 
-#AboutTop {
-    position: absolute;
-    right: 32px;
-}
-
-#AboutTop a {
-    line-height: 32px;
-    font-size: 150%;
-    color: #fff;
-    text-decoration: none;
-}
-
 .topbaricons {
     margin-right: 32px;
 }
