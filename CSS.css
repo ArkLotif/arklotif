@@ -13,7 +13,14 @@ body {
     padding: 16px;
 }
 
-#ArkLotifTop, #TwitterTop {
+#ArkLotifTop {
+    width: 50px;
+}
+#TwitterTop {
+    width: 39px;
+}
+
+.topbaricons {
     margin-right: 32px;
 }
 
