@@ -24,6 +24,10 @@ body {
 
 #AboutTop {
     float: right;
+    line-height: 32px;
+    font-size: 100%;
+    color: #fff;
+    text-decoration: none;
 }
 
 .topbaricons {
