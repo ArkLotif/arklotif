@@ -55,10 +55,6 @@ body {
     border-radius: 8px;
 }
 
-.shot:hover {
-    margin: 200px;
-}
-
 #ArkLotif {
     background: url(Images/Shots/ArkLotif/256.png);
 }
@@ -93,4 +89,16 @@ body {
 
 #Ghost {
     background: url(Images/Shots/Ghost/256.png);
+}
+
+#PiranhaPlant {
+    background: url(Images/Shots/PiranhaPlant/256.png);
+}
+
+#Face {
+    background: url(Images/Shots/Face/256.png);
+}
+
+#Planet {
+    background: url(Images/Shots/Planet/256.png);
 }
