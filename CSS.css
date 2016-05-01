@@ -4,8 +4,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#Header {
-    height: 144px;
+#TopBar {
+    height: 64px;
     background: #33bbff;
     background: -moz-linear-gradient(-45deg,  #33bbff 0%, #7733ff 100%);
     background: -webkit-linear-gradient(-45deg,  #33bbff 0%,#7733ff 100%);
@@ -13,12 +13,8 @@ body {
     margin-bottom: 40px;
 }
 
-#Logo {
-    background-image: url(Images/Header/Header.png);
-    width: 144px;
-    height: 144px;
-    margin-left: auto;
-    margin-right: auto;
+#ArkLotif {
+    
 }
 
 #Content {
