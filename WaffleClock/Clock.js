@@ -8,7 +8,8 @@ function startTime() {
     s = checkTime(s);
     if (TwelveHour == true) {h = TwelveTime(h)};
     var t = setTimeout(startTime, 500);
-    document.getElementById("txt").innerHTML = h + ":" + m;
+    document.getElementById("m").innerHTML = m;
+    document.getElementById("h").innerHTML = h;
     document.getElementById("txt").style.paddingTop = TopPadding + "px";
     document.getElementById("txt").style.fontSize = FontSize + "px";
     document.getElementById("txt").style.color = "#" + TextColor;
