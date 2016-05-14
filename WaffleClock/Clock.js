@@ -8,12 +8,12 @@ function startTime() {
     s = checkTime(s);
     if (TwelveHour == true) {h = TwelveTime(h)};
     var t = setTimeout(startTime, 500);
-    document.getElementById("m").innerHTML = m;
-    document.getElementById("h").innerHTML = h;
-    document.getElementById("txt").style.paddingTop = TopPadding + "px";
-    document.getElementById("txt").style.fontSize = FontSize + "px";
-    document.getElementById("txt").style.color = "#" + TextColor;
-    document.getElementById("txt").style.opacity = Opacity;
+    document.getElementById("min").innerHTML = m;
+    document.getElementById("hour").innerHTML = h;
+    document.getElementById("time").style.paddingTop = TopPadding + "px";
+    document.getElementById("time").style.fontSize = FontSize + "px";
+    document.getElementById("time").style.color = "#" + TextColor;
+    document.getElementById("time").style.opacity = Opacity;
 }
 
 function checkTime(i) {
