@@ -7,6 +7,7 @@ function startTime() {
     m = checkTime(m);
     s = checkTime(s);
     if (TwelveHour == true) {h = TwelveTime(h)};
+    if (h < 10) {h = "0" + h};
     var t = setTimeout(startTime, 500);
     document.getElementById("min").innerHTML = m;
     document.getElementById("hour").innerHTML = h;
