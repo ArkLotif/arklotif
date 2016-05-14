@@ -1,10 +1,10 @@
 @font-face {
-    font-family: Coolvetica;
-    src:url(Coolvetica.ttf);
+    font-family: Moon;
+    src:url(Moon.otf);
 }
 
 body {
-    font-family: Coolvetica;
+    font-family: Moon;
     margin: 0px;
     padding: 0px;
     text-align: center;
