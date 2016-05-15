@@ -35,6 +35,7 @@ body {
 .Fade a {
     color: #3399ff;
     font-size: 30px;
+    text-decoration: none;
 }
 
 #ArkLotif {
