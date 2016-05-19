@@ -41,9 +41,11 @@ h1 {
 }
 
 .Shot {
+    height:256px;
+    width: 256px;
 }
 
 .Images {
-    width: inherit;
     height: inherit;
+    width: inherit;
 }
