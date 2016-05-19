@@ -27,6 +27,15 @@
     <meta name="theme-color" content="#3355ff">
 </head>
 <body>
+    <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("Shot");
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.width = "50%";
+            }
+        }
+    </script>
     <div id="Header">
         <img id="Logo" src="Images/Logo.png">
         <h1>ArkLotif</h1>
@@ -35,8 +44,7 @@
             <a class="SocialMediaLink" href="https://www.instagram.com/arklotif/">INSTAGRAM</a>
             <a class="SocialMediaLink" href="https://www.reddit.com/user/ArkLotif/">REDDIT</a>
         </div>
-        <button type="button" onclick="document.getElementsByClassName('Shot').style.width = '50%'">Small</button>
-        <button type="button" onclick="document.getElementsByClassName('Shot').style.width = '100%'">Big</button>
+        <button class="Shot" onclick="smallImages()">Small</button>
     </div>
     <div id="Content">
         <img class="Shot" src="Images/Shots/ArkLotif.png">
