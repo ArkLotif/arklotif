@@ -6,6 +6,12 @@ body {
     margin: 0px;
 }
 
+button {
+    height: 32px;
+    width: 32px;
+    color:#fff;
+}
+
 #Header {
     margin: 64px 0px;
     text-align: center;
