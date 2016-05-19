@@ -35,8 +35,8 @@ h1 {
 }
 
 #Content {
-    margin: 40px auto 40px auto;
-    width: 912px;
+    margin: 32px auto;
+    width: 1024px;
     display: table;
     text-align: center;
 }
@@ -45,6 +45,8 @@ h1 {
     display: inline-block;
     width: 256px;
     height: 256px;
+    border: 8px solid #fff;
+    box-shadow: 0px 0px 8px rgba(26, 26, 26, 0.16);
     margin: 16px;
 }
 
