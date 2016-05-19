@@ -32,7 +32,17 @@
             var x = document.getElementsByClassName("Shot");
             var i;
             for (i = 0; i < x.length; i++) {
-                x[i].style.width = "50%";
+                x[i].style.width = "256px";
+                x[i].style.height = "256px";
+            }
+        }
+
+        function bigImages() {
+            var x = document.getElementsByClassName("Shot");
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.width = "512px";
+                x[i].style.height = "512px";
             }
         }
     </script>
@@ -45,6 +55,7 @@
             <a class="SocialMediaLink" href="https://www.reddit.com/user/ArkLotif/">REDDIT</a>
         </div>
         <button onclick="smallImages()">Small</button>
+        <button onclick="bigImages()">Big</button>
     </div>
     <div id="Content">
         <div class="Shot">
