@@ -14,17 +14,17 @@ h1 {
     color: #AAB2BD;
     font-size: 16px;
     font-weight: 300;
-    margin: 32px;
+    margin: 16px;
 }
 
 #SocialMediaBar {
     text-align: center;
+    margin: 16px;
 }
 
 .SocialMediaLink {
-    color: #323133;
-    font-size: 24px;
+    color: #3C3B3D;
+    font-size: 16px;
     font-weight: 300;
-    margin: 16px;
     text-decoration: none;
 }
