@@ -12,9 +12,19 @@ body {
     font-size: 0px;
     padding: 0px;
     margin: 0px 32px;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.SizeButtons:focus {
+    outline: none;
 }
 
 #SmallButton {
+    background: url(Images/Header/Small.png)
+}
+
+#BigButton {
     background: url(Images/Header/Small.png)
 }
 
