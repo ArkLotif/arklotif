@@ -6,10 +6,16 @@ body {
     margin: 0px;
 }
 
-button {
-    height: 32px;
-    width: 32px;
-    color:#fff;
+.SizeButtons {
+    height: 64px;
+    width: 64px;
+    font-size: 0px;
+    padding: 0px;
+    margin: 0px 32px;
+}
+
+#SmallButton {
+    background: url(Images/Header/Small.png)
 }
 
 #Header {
