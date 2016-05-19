@@ -16,3 +16,13 @@ h1 {
     font-weight: 300;
     margin: 16px;
 }
+
+#SocialMediaBar {
+    text-align: center;
+}
+
+.SocialMediaLink {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 16px;
+}
