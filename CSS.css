@@ -35,14 +35,17 @@ h1 {
 }
 
 #Content {
-    margin: 0 auto;
-    width: 1024px;
+    margin: 40px auto 40px auto;
+    width: 912px;
+    display: table;
+    text-align: center;
 }
 
 .Shot {
-    height:256px;
+    display: inline-block;
     width: 256px;
-    float: left;
+    height: 256px;
+    margin: 16px;
 }
 
 .Images {
