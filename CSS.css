@@ -3,10 +3,10 @@ body {
     color: #323133;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    margin: 64px;
 }
 
 #Header {
+    margin: 64px 0px;
     text-align: center;
 }
 
