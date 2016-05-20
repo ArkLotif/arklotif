@@ -30,19 +30,29 @@
     <script>
         function smallImages() {
             var x = document.getElementsByClassName("Shot");
+            var y = document.getElementsByClassName("ShotLong");
             var i;
             for (i = 0; i < x.length; i++) {
                 x[i].style.width = "256px";
                 x[i].style.height = "256px";
             }
+            for (i = 0; i < y.length; i++) {
+                y[i].style.width = "560px";
+                y[i].style.height = "256px";
+            }
         }
 
         function bigImages() {
             var x = document.getElementsByClassName("Shot");
+            var x = document.getElementsByClassName("ShotLong");
             var i;
             for (i = 0; i < x.length; i++) {
                 x[i].style.width = "512px";
                 x[i].style.height = "512px";
+            }
+            for (i = 0; i < y.length; i++) {
+                y[i].style.width = "1120px";
+                y[i].style.height = "512px";
             }
         }
     </script>
@@ -93,6 +103,30 @@
 
         <div class="Shot">
             <img class="Images" src="Images/Shots/Ghost.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/PiranhaPlant.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Face.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Planet.png">
+        </div>
+
+        <div class="ShotLong">
+            <img class="Images" src="Images/Shots/Kirsten.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Planet.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Planet.png">
         </div>
 
     </div>
