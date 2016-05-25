@@ -6,6 +6,18 @@ body {
     margin: 0px;
 }
 
+#Header {
+    margin: 48px 0px 32px 0px;
+    text-align: center;
+}
+
+h1 {
+    color: #AAB2BD;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 32px;
+}
+
 .SizeButtons {
     height: 64px;
     width: 64px;
@@ -26,22 +38,6 @@ body {
 
 #BigButton {
     background: url(Images/Header/Big.png)
-}
-
-#Header {
-    margin: 64px 0px 32px 0px;
-    text-align: center;
-}
-
-#Logo {
-    margin-bottom: 16px;
-}
-
-h1 {
-    color: #AAB2BD;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 32px;
 }
 
 #SocialMediaBar {
