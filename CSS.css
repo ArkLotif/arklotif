@@ -47,8 +47,8 @@ body {
 }
 
 #Content {
-    margin: 16px auto 32px auto;
-    width: 1120px;
+    margin: 0px auto 32px auto;
+    width: 80%;
     display: table;
     text-align: center;
 }
