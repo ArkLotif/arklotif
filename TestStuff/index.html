@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ArkLotif</title>
+    <link rel="stylesheet" href="CSS.css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="favicon.png" type="image/png" sizes="16x16">
+</head>
+<body>
+    <script>
+        function smallImages() {
+            var x = document.getElementsByClassName("Shot");
+            var y = document.getElementsByClassName("ShotLong");
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.width = "256px";
+                x[i].style.height = "256px";
+            }
+            for (i = 0; i < y.length; i++) {
+                y[i].style.width = "560px";
+                y[i].style.height = "256px";
+            }
+        }
+
+        function bigImages() {
+            var x = document.getElementsByClassName("Shot");
+            var y = document.getElementsByClassName("ShotLong");
+            var i;
+            for (i = 0; i < x.length; i++) {
+                x[i].style.width = "512px";
+                x[i].style.height = "512px";
+            }
+            for (i = 0; i < y.length; i++) {
+                y[i].style.width = "1072px";
+                y[i].style.height = "512px";
+            }
+        }
+    </script>
+    <div id="Header">
+        <img id="Logo" src="Images/Header/Logo.png">
+        <div id="SocialMediaBar">
+            <a class="SocialMediaLink" href="https://twitter.com/ArkLotif">TWITTER</a>
+            <a class="SocialMediaLink" href="https://www.instagram.com/arklotif/">INSTAGRAM</a>
+            <a class="SocialMediaLink" href="https://www.reddit.com/user/ArkLotif/">REDDIT</a>
+            <a class="SocialMediaLink" href="mailto:arklotif@gmail.com">EMAIL</a>
+        </div>
+        <button class="SizeButtons" id="SmallButton" onclick="smallImages()">Small</button>
+        <button class="SizeButtons" id="BigButton" onclick="bigImages()">Big</button>
+    </div>
+    <div id="Content">
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/ArkLotif.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Steve.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/ArkLotifFace.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Biscuit.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Taffy.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Slushi.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Skrilloo.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/EasterEgg.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Ghost.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Face.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/PiranhaPlant.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Planet.png">
+        </div>
+
+        <div class="ShotLong">
+            <img class="Images" src="Images/Shots/Kirsten.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/Flower.png">
+        </div>
+
+        <div class="Shot">
+            <img class="Images" src="Images/Shots/VR.png">
+        </div>
+
+        <div class="ShotLong">
+            <img class="Images" src="Images/Shots/TwoFace.png">
+        </div>
+
+        <div class="Shot">
+            <video class="Images" autoplay loop muted>
+                <source src="/Images/Shots/ArkLotifGlow.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="Shot">
+            <video class="Images" autoplay loop muted>
+                <source src="/Images/Shots/Wave.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="Shot">
+            <video class="Images" autoplay loop muted>
+                <source src="/Images/Shots/ApertureScience.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+</body>
+</html>

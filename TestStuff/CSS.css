@@ -1,0 +1,75 @@
+body {
+    background: #F5F7FA;
+    color: #323133;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+}
+
+#Header {
+    margin: 48px 0px 32px 0px;
+    text-align: center;
+}
+
+#SocialMediaBar {
+    text-align: center;
+    margin: 32px 0px;
+}
+
+.SocialMediaLink {
+    color: #3C3B3D;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 32px;
+    text-decoration: none;
+}
+
+.SizeButtons {
+    height: 48px;
+    width: 48px;
+    font-size: 0px;
+    padding: 0px;
+    margin: 0px 32px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.SizeButtons:focus {
+    outline: none;
+}
+
+#SmallButton {
+    background: url(Images/Header/Small.png)
+}
+
+#BigButton {
+    background: url(Images/Header/Big.png)
+}
+
+#Content {
+    margin: 0px auto 32px auto;
+    width: 80%;
+    display: table;
+    text-align: center;
+}
+
+.Shot {
+    display: inline-block;
+    width: 256px;
+    height: 256px;
+    border: 8px solid #fff;
+    margin: 16px;
+}
+
+.ShotLong {
+    display: inline-block;
+    width: 560px;
+    height: 256px;
+    border: 8px solid #fff;
+    margin: 16px;
+    background: #fff;
+}
+
+.Images {
+    height: inherit;
+}
