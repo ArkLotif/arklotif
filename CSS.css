@@ -32,10 +32,11 @@ body {
 }
 
 #Content {
-    width: 1088px;
+    width: 1024px;
     margin: 32px auto;
     display: table;
     text-align: center;
+    font-size: 0px;
 }
 
 #Shot {
