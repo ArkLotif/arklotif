@@ -40,7 +40,6 @@ body {
 #Content {
     width: 1024px;
     margin: 64px auto;
-    display: table;
     font-size: 0px;
 }
 
