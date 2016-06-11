@@ -41,10 +41,9 @@ body {
     width: 1024px;
     margin: 64px auto;
     display: table;
-    text-align: center;
     font-size: 0px;
 }
 
 #Top {
-    
+    font-size: 48px;
 }
