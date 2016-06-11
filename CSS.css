@@ -133,7 +133,7 @@ body {
 
 #Content {
     width: 1024px;
-    margin: 64px auto;
+    margin: 0px auto;
     display: table;
     text-align: center;
     font-size: 0px;
