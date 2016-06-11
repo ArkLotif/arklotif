@@ -33,7 +33,7 @@ body {
 
 #Content {
     width: 1024px;
-    margin: 32px auto;
+    margin: 64px auto;
     display: table;
     text-align: center;
     font-size: 0px;
@@ -62,7 +62,7 @@ body {
 }
 
 #Title {
-    font-size: 32px;
+    font-size: 48px;
     text-align: center;
     vertical-align: middle;
     display: table-cell;
