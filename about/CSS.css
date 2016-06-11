@@ -45,53 +45,6 @@ body {
     font-size: 0px;
 }
 
-#Shot {
-    width: 512px;
-    height: 512px;
-    display: inline-block;
-}
-
-#ShotLong {
-    width: 1024px;
-    height: 512px;
-    display: inline-block;
-}
-
-#Hover {
-    background: #fff;
-    height: 448px;
-    width: 448px;
-    position: absolute;
-    margin: 32px;
-    display: table;
-    opacity: 0.0;
-    transition: opacity 0.5s;
-}
-
-#Hover:hover {
-    opacity: 0.85;
-    transition: opacity 0.5s;
-}
-
-#HoverLong {
-    background: #fff;
-    height: 448px;
-    width: 960px;
-    position: absolute;
-    margin: 32px;
-    display: table;
-    opacity: 0.0;
-    transition: opacity 0.5s;
-}
-
-#HoverLong:hover {
-    opacity: 0.85;
-    transition: opacity 0.5s;
-}
-
-#Title {
-    font-size: 48px;
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
+#Top {
+    
 }
