@@ -95,3 +95,14 @@ body {
     vertical-align: middle;
     display: table-cell;
 }
+
+
+@media (max-width: 1024px) {
+    body {
+    background: #ff0000;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+}
+}
