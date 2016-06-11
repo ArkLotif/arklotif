@@ -39,12 +39,13 @@ body {
 
 #Content {
     width: 1024px;
-    margin: 64px auto;
+    margin: 32px auto;
     font-size: 0px;
 }
 
 #Top {
     font-size: 48px;
+    line-height: 2;
 }
 
 #Text {
