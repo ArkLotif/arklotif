@@ -69,7 +69,23 @@ body {
 }
 
 #Hover:hover {
-    opacity: 0.75;
+    opacity: 0.85;
+    transition: opacity 0.5s;
+}
+
+#HoverLong {
+    background: #fff;
+    height: 448px;
+    width: 960px;
+    position: absolute;
+    margin: 32px;
+    display: table;
+    opacity: 0.0;
+    transition: opacity 0.5s;
+}
+
+#HoverLong:hover {
+    opacity: 0.85;
     transition: opacity 0.5s;
 }
 
