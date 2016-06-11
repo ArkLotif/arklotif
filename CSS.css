@@ -49,10 +49,10 @@ body {
     background: rgba(255,255,255,0);
     height: 448px;
     width: 488px;
+    position: absolute;
+    margin: 32px;
 }
 
 #Hover:hover {
-    background: rgba(255,255,255,0.5);
-    height: 448px;
-    width: 488px;
+    background: rgba(255,255,255,0.6);
 }
