@@ -109,6 +109,7 @@ body {
     height: 200px;
     background: #fff;
     width: 1024px;
+    border: none;
 }
 
 #HeaderContent {
@@ -129,7 +130,7 @@ body {
 
 #Nav {
     height: 28px;
-    padding: 43px 0px;
+    padding: 86px 36px;
     float: right;
 }
 
