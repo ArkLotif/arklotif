@@ -46,15 +46,16 @@ body {
 }
 
 #Hover {
-    background: rgba(255,255,255,0);
+    background: #fff;
     height: 448px;
     width: 448px;
     position: absolute;
     margin: 32px;
+    opacity: 0.0;
 }
 
 #Hover:hover {
-    background: rgba(255,255,255,0.6);
+    opacity: 0.75;
 }
 
 #Title {
