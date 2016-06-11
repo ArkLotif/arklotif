@@ -10,6 +10,7 @@ body {
     height: 100px;
     background: #fff;
     width: 100%;
+    border-bottom: 1px solid #eee;
 }
 
 #HeaderContent {
