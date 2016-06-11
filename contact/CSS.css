@@ -40,6 +40,8 @@ body {
 #Content {
     width: 1024px;
     margin: 32px auto;
-    font-size: 0px;
 }
 
+#Text {
+    font-size: 16px;
+}
