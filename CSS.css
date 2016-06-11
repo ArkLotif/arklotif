@@ -10,3 +10,7 @@ body {
     height: 100px;
     border-bottom: 1px solid #eee
 }
+
+#Logo {
+    margin: 18px;
+}
