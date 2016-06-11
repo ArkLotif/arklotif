@@ -1,6 +1,6 @@
 body {
     background: #fff;
-    color: #323133;
+    color: #333;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 0px;
@@ -20,10 +20,12 @@ body {
 }
 
 #Nav {
-    
+    height: 16px;
+    padding: 42px;
 }
 
 #NavText {
     text-decoration: none;
     margin: 32px;
+    font-size: 16px;
 }
