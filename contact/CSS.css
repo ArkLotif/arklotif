@@ -41,3 +41,12 @@ body {
     width: 1024px;
     margin: 32px auto;
 }
+
+#Icon {
+    width: 64px;
+    height: 64px;
+}
+
+#Social {
+    display: block;
+}
