@@ -52,10 +52,12 @@ body {
     position: absolute;
     margin: 32px;
     opacity: 0.0;
+    transition: opacity 0.5s;
 }
 
 #Hover:hover {
     opacity: 0.75;
+    transition: opacity 0.5s;
 }
 
 #Title {
