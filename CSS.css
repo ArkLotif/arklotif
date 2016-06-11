@@ -48,6 +48,8 @@ body {
 #Hover {
     display: none;
     background: rgba(255,255,255,0.5);
+    height: 448px;
+    width: 488px;
 }
 
 #Hover:hover {
