@@ -45,6 +45,12 @@ body {
     display: inline-block;
 }
 
+#ShotLong {
+    width: 1024px;
+    height: 512px;
+    display: inline-block;
+}
+
 #Hover {
     background: #fff;
     height: 448px;
