@@ -126,7 +126,7 @@ body {
 }
 
 #Nav {
-    height: 14px;
+    height: 28px;
     padding: 43px 0px;
     float: right;
 }
@@ -134,7 +134,7 @@ body {
 #NavText {
     text-decoration: none;
     margin: 16px;
-    font-size: 14px;
+    font-size: 28px;
     color: #333;
 }
 
