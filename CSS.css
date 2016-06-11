@@ -15,9 +15,15 @@ body {
 }
 
 #Logo {
+    margin: 18px;
     float: left;
 }
 
 #Nav {
-    text-align: center;
+    
+}
+
+#NavText {
+    text-decoration: none;
+    margin: 32px;
 }
