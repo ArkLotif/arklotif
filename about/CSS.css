@@ -9,7 +9,7 @@ body {
 #Header {
     height: 100px;
     background: #fff;
-    width: 1024px;
+    width: 100%;
     border-bottom: 1px solid #eee;
 }
 
@@ -38,7 +38,7 @@ body {
 }
 
 #Content {
-    width: 1024px;
+    width: 80%;
     margin: 32px auto;
     font-size: 0px;
 }
@@ -65,7 +65,7 @@ body {
 
 #HeaderContent {
     height: 200px;
-    width: 100%;
+    width: 1024px;
     margin: auto;
 }
 
