@@ -148,32 +148,8 @@ body {
     text-align: center;
     font-size: 0px;
 }
-
-#Hover:focus {
-    opacity: 0.85;
-    transition: opacity 0.5s;
-}
-
-#HoverLong {
-    background: #fff;
-    height: 448px;
-    width: 960px;
-    position: absolute;
-    margin: 32px;
-    display: table;
-    opacity: 0.0;
-    transition: opacity 0.5s;
-}
-
-#HoverLong:hover {
-    opacity: 0.85;
-    transition: opacity 0.5s;
-}
-
-#Title {
-    font-size: 48px;
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
+#Top {
+    font-size: 96px;
+    line-height: 4;
 }
 }
