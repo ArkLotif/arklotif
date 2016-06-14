@@ -24,6 +24,10 @@ body {
     float: left;
 }
 
+#LogoMobile {
+    display: none;
+}
+
 #Nav {
     height: 14px;
     padding: 43px 0px;
