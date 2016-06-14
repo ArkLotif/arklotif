@@ -120,4 +120,11 @@ body {
 .MobileIcon {
     display: block;
 }
+
+#Social {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    margin: 64px;
+}
 }
