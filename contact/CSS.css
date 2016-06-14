@@ -52,11 +52,11 @@ body {
     height: 64px;
 }
 
-#DesktopIcon {
+.DesktopIcon {
     display: block;
 }
 
-#MobileIcon {
+.MobileIcon {
     display: none;
 }
 
@@ -113,11 +113,11 @@ body {
     font-size: 0px;
 }
 
-#DesktopIcon {
+.DesktopIcon {
     display: none;
 }
 
-#MobileIcon {
+.MobileIcon {
     display: block;
 }
 }
