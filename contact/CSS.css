@@ -48,6 +48,14 @@ body {
     height: 64px;
 }
 
+#DesktopIcon {
+    display: block;
+}
+
+#MobileIcon {
+    display: none;
+}
+
 #Social {
     display: inline-block;
     width: 64px;
@@ -99,5 +107,13 @@ body {
     display: table;
     text-align: center;
     font-size: 0px;
+}
+
+#DesktopIcon {
+    display: none;
+}
+
+#MobileIcon {
+    display: block;
 }
 }
