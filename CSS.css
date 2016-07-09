@@ -16,6 +16,11 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33bbff', endColorstr='#7733ff',GradientType=1 ); /* IE6-9 */
 }
 
+#Site {
+    width: 96%;
+    margin: 0 2%;
+}
+
 #Header {
     height: 100px;
     background: #fff;
