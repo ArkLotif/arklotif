@@ -36,17 +36,10 @@ body {
     display: none;
 }
 
-#Nav {
+#SocialMediaIcons {
     height: 14px;
     padding: 43px 0px;
     float: right;
-}
-
-#NavText {
-    text-decoration: none;
-    margin: 16px;
-    font-size: 14px;
-    color: #fff;
 }
 
 #Content {
