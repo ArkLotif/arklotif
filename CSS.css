@@ -1,6 +1,10 @@
 body {
-    background: #fafafa;
-    color: #333;
+    background: #0d0026; /* Old browsers */
+    background: -moz-linear-gradient(left,  #0d0026 0%, #001a26 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #0d0026 0%,#001a26 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #0d0026 0%,#001a26 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d0026', endColorstr='#001a26',GradientType=1 ); /* IE6-9 */
+    color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 0px;
