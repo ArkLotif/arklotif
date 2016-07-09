@@ -10,16 +10,6 @@ body {
     margin: 0px;
 }
 
-#Gradient {
-    height: 2%;
-    width: 100%;
-    background: #33bbff;
-    background: -moz-linear-gradient(left,  #33bbff 0%, #7733ff 100%);
-    background: -webkit-linear-gradient(left,  #33bbff 0%,#7733ff 100%);
-    background: linear-gradient(to right,  #33bbff 0%,#7733ff 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33bbff', endColorstr='#7733ff',GradientType=1 );
-}
-
 #Site {
     width: 96%;
     margin: 0 2%;
@@ -27,9 +17,8 @@ body {
 
 #Header {
     height: 100px;
-    background: #fff;
     width: 100%;
-    border-bottom: 1px solid #eee;
+    background: #eee;
 }
 
 #HeaderContent {
