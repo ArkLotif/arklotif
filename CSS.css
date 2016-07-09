@@ -7,7 +7,7 @@ body {
 }
 
 #Gradient {
-    height: 1%;
+    height: 2%;
     width: 100%;
     background: #33bbff; /* Old browsers */
     background: -moz-linear-gradient(left,  #33bbff 0%, #7733ff 100%); /* FF3.6-15 */
