@@ -30,7 +30,10 @@ body {
 
 #SMa {
     font-size: 0px;
-    margin: 48px 16px;
+}
+
+#SM {
+    margin: 46px 16px;
 }
 
 #Content {
