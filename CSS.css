@@ -4,7 +4,6 @@ body {
     background: -webkit-linear-gradient(-45deg,  #001926 0%,#0c0026 100%);
     background: linear-gradient(135deg,  #001926 0%,#0c0026 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001926', endColorstr='#0c0026',GradientType=1 );
-    color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 0px;
@@ -12,26 +11,20 @@ body {
 
 #Site {
     width: 1024px;
-    margin: 64px auto;
+    margin: auto;
 }
 
 #Header {
-    height: 64px;
+    height: 128px;
 }
 
 #Logo {
-    margin: 18px;
+    margin: 32px;
     float: left;
     display: block;
 }
 
-#LogoMobile {
-    display: none;
-}
-
 #SocialMediaIcons {
-    height: 14px;
-    padding: 43px 0px;
     float: right;
 }
 
