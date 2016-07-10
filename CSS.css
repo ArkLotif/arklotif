@@ -28,6 +28,10 @@ body {
     float: right;
 }
 
+#SMa {
+    font-size: 0px;
+}
+
 #SM {
     margin: 32px 16px;
 }
