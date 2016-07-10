@@ -102,7 +102,7 @@ body {
 @media (max-width: 1024px) {
 
 #Site {
-    width: 512px;
+    width: 80%;
     margin: auto;
 }
 
@@ -133,7 +133,7 @@ body {
 }
 
 #Content {
-    width: 512px;
+    width: 100%;
     font-size: 0px;
 }
 
