@@ -16,14 +16,7 @@ body {
 }
 
 #Header {
-    height: 100px;
-    width: 100%;
-}
-
-#HeaderContent {
-    height: 100px;
-    width: 90%;
-    margin: auto;
+    height: 64px;
 }
 
 #Logo {
