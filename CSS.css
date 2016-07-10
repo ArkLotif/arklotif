@@ -28,11 +28,12 @@ body {
     float: right;
 }
 
+#SM {
+    font-size: 0px;
+}
+
 #Content {
     width: 1024px;
-    margin: 64px auto;
-    display: table;
-    text-align: center;
     font-size: 0px;
 }
 
