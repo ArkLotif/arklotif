@@ -158,6 +158,14 @@ body {
     height: 256px;
     display: inline-block;
 }
+    
+#ShotImage {
+    width:100%
+}
+    
+#ShotLongImage {
+    width:100%
+}
 
 #Hover {
     background: #fff;
