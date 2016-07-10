@@ -161,10 +161,10 @@ body {
 
 #Hover {
     background: #fff;
-    height: 448px;
-    width: 448px;
+    height: 224px;
+    width: 224px;
     position: absolute;
-    margin: 32px;
+    margin: 16px;
     display: table;
     opacity: 0.0;
     transition: opacity 0.5s;
@@ -177,10 +177,10 @@ body {
 
 #HoverLong {
     background: #fff;
-    height: 448px;
-    width: 960px;
+    height: 224px;
+    width: 480px;
     position: absolute;
-    margin: 32px;
+    margin: 16;
     display: table;
     opacity: 0.0;
     transition: opacity 0.5s;
