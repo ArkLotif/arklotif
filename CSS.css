@@ -24,6 +24,10 @@ body {
     display: block;
 }
 
+#LogoMobile {
+    display: none;
+}
+
 #SocialMediaIcons {
     float: right;
 }
@@ -107,6 +111,10 @@ body {
 }
 
 #Logo {
+    display: none;
+}
+
+#LogoMobile {
     margin: 64px;
     float: left;
     display: block;
