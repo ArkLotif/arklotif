@@ -30,6 +30,11 @@ body {
 
 #SocialMediaIcons {
     float: right;
+    display: block;
+}
+
+#SocialMediaIconsMobile {
+    display: none;
 }
 
 #SMa {
@@ -121,14 +126,19 @@ body {
 }
 
 #SocialMediaIcons {
-    float: right;
+    display: none;
 }
 
-#SMa {
+#SocialMediaIconsMobile {
+    float: right;
+    display: block;
+}
+
+#SMaMobile {
     font-size: 0px;
 }
 
-#SM {
+#SMMobile {
     margin: 46px 16px;
 }
 
