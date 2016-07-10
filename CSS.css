@@ -11,8 +11,8 @@ body {
 }
 
 #Site {
-    width: 96%;
-    margin: 2%;
+    width: 1024px;
+    margin: 64px auto;
 }
 
 #Header {
