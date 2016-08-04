@@ -120,8 +120,8 @@ body {
 }
 
 #LogoMobile {
-    margin: 64px 0px;
-    float: left;
+    margin: 64px auto;
+    text-align: center;
     display: block;
 }
 
@@ -130,8 +130,8 @@ body {
 }
 
 #SocialMediaIconsMobile {
-    margin: 64px 0px;
-    float: right;
+    margin: 64px auto;
+    text-align: center;
     display: block;
 }
 
