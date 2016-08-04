@@ -146,6 +146,7 @@ body {
 #Content {
     width: 100%;
     font-size: 0px;
+    margin: 128px;
 }
 
 #Shot {
