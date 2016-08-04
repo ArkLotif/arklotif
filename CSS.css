@@ -130,6 +130,7 @@ body {
 }
 
 #SocialMediaIconsMobile {
+    margin: 64px;
     float: right;
     display: block;
 }
