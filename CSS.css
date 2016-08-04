@@ -140,13 +140,13 @@ body {
 }
 
 #SMMobile {
-    margin: 46px 16px;
+    margin: 46px 32px;
 }
 
 #Content {
     width: 100%;
     font-size: 0px;
-    margin: 128px 0px 0px 0px;
+    margin: 128px 0px 64px 0px;
 }
 
 #Shot {
