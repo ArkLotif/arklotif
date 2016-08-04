@@ -120,7 +120,7 @@ body {
 }
 
 #LogoMobile {
-    margin: 64px;
+    margin: 64px 0px;
     float: left;
     display: block;
 }
@@ -130,7 +130,7 @@ body {
 }
 
 #SocialMediaIconsMobile {
-    margin: 64px;
+    margin: 64px 0px;
     float: right;
     display: block;
 }
