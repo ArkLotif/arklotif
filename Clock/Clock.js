@@ -52,8 +52,6 @@ function startTime() {
     document.getElementById('Month').innerHTML = month;
     document.getElementById('Date').innerHTML = date;
     
-    if (displayDayOfTheWeek == true) {document.getElementById("Day").style.display = block;}
-    
     document.getElementById("Calendar").style.fontSize = calendarFontSize + "px";
     
     var t = setTimeout(startTime, 500);
