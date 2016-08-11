@@ -1,2 +1,2 @@
 var divider = ":";
-var twelveHour = false;
+var twelveHour = true;
