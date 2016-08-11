@@ -3,7 +3,9 @@ function startTime() {
     var h = today.getHours();
     var m = today.getMinutes();
     m = checkTime(m);
-    document.getElementById('Time').innerHTML = h + ":" + m;
+    document.getElementById('hour').innerHTML = h;
+    document.getElementById('Minute').innerHTML = m;
+    document.getElementById('Colon').innerHTML = ":";
     var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
