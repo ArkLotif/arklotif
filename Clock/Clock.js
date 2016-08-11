@@ -53,7 +53,6 @@ function startTime() {
     document.getElementById('Date').innerHTML = date;
     
     if (displayDayOfTheWeek == true) {document.getElementById("Day").style.display = block;}
-    else {document.getElementById("Day").style.display = none;}
     
     document.getElementById("Calendar").style.fontSize = calendarFontSize + "px";
     
