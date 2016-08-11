@@ -5,8 +5,11 @@ function startTime() {
     
     m = fixMinute(m);
     
-    if (twelveHour = true) {
+    if (twelveHour == true) {
         h = twelveHourClock(h);
+    }
+    else {
+        h = h;
     }
 
     document.getElementById('Hour').innerHTML = h;
