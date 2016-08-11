@@ -52,7 +52,7 @@ function startTime() {
     document.getElementById('Month').innerHTML = month;
     document.getElementById('Date').innerHTML = date;
     
-    document.getElementById("Calendar").style.fontSize = calendarFontSize + "px";
+    document.getElementById("Day").style.fontSize = calendarFontSize + "px";
     
     var t = setTimeout(startTime, 500);
 }
