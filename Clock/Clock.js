@@ -52,7 +52,10 @@ function startTime() {
     document.getElementById('Month').innerHTML = month;
     document.getElementById('Date').innerHTML = date;
     
-    document.getElementById("Time").style.fontSize = calendarFontSize + "px";
+    if (displayDayOfTheWeek == true) {document.getElementById("Day").style.display = block;}
+    else {document.getElementById("Day").style.display = none;}
+    
+    document.getElementById("Calendar").style.fontSize = calendarFontSize + "px";
     
     var t = setTimeout(startTime, 500);
 }
