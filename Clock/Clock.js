@@ -20,6 +20,8 @@ function startTime() {
     document.getElementById('Minute').innerHTML = minute;
     
     document.getElementById("Hour").style.fontSize = timeFontSize = "px";
+    document.getElementById("Divider").style.fontSize = timeFontSize = "px";
+    document.getElementById("Minute").style.fontSize = timeFontSize = "px";
     
 // *** Calendar *** //
     

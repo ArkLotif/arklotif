@@ -10,6 +10,7 @@ body {
 
 #Time {
     font-family: Atami-Light;
+    display: inline-flex;
 }
 
 #Calendar {
