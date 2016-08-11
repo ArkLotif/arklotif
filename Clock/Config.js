@@ -1,1 +1,2 @@
-var divider = "qwert";
+var divider = ":";
+var twelveHour = false;
