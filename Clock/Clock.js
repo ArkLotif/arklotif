@@ -19,7 +19,7 @@ function startTime() {
     document.getElementById('Divider').innerHTML = divider;
     document.getElementById('Minute').innerHTML = minute;
     
-    document.getElementById("Time").style.fontSize = timeFontSize + "px";
+    document.getElementById("Hour").style.fontSize =new timeFontSize = "px";
     
 // *** Calendar *** //
     
