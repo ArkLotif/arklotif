@@ -13,7 +13,12 @@ body {
     text-align: center;
 }
 
-#Time, #Calendar {
+#Time {
+    font-family: Atami-Light;
+    text-align: center;
+}
+
+#Calendar {
     font-family: Atami-Light;
     text-align: center;
 }
