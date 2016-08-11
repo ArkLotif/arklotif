@@ -15,6 +15,8 @@ function startTime() {
     document.getElementById('Hour').innerHTML = h;
     document.getElementById('Divider').innerHTML = divider;
     document.getElementById('Minute').innerHTML = m;
+    
+    document.getElementById("Time").style.fontSize = fontSize + "px";
 }
 
 function fixMinute(i) {
