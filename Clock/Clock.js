@@ -5,7 +5,7 @@ function startTime() {
     m = checkTime(m);
     document.getElementById('hour').innerHTML = h;
     document.getElementById('Minute').innerHTML = m;
-    document.getElementById('Colon').innerHTML = ":";
+    document.getElementById('Divider').innerHTML = ":";
     var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
