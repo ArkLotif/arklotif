@@ -1,15 +1,11 @@
 @font-face{
     font-family:Atami-Light;
-    src:url(../Atami-Light.otf);
+    src:url(Atami-Light.otf);
 }
 
 * {
 margin: 0;
 padding: 0;
-}
-
-html, body {
-    width:100%;
 }
 
 body {
@@ -19,5 +15,5 @@ body {
 
 #Time {
     font-family: Atami-Light;
-    font-size: 100%;
+    font-size: 72px;
 }
