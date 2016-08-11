@@ -27,6 +27,10 @@ function startTime() {
     var month = today.getMonth();
     var date = today.getDate();
     
+    if (day == 3) {
+        day = "Wednesday";
+    }
+    
     document.getElementById('Day').innerHTML = day;
     document.getElementById('Month').innerHTML = month;
     document.getElementById('Date').innerHTML = date;
