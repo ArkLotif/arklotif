@@ -13,7 +13,6 @@ body {
     text-align: center;
 }
 
-#Time {
+#Time, #Calendar {
     font-family: Atami-Light;
-    font-size: 72px;
 }

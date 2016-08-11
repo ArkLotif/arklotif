@@ -1,22 +1,37 @@
 function startTime() {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
     
-    m = fixMinute(m);
+    // *** Time *** //
+    
+    var today = new Date();
+    var hour = today.getHours();
+    var minute = today.getMinutes();
+    
+    minute = fixMinute(minute);
     
     if (twelveHour == true) {
-        h = twelveHourClock(h);
+        hour = twelveHourClock(hour);
     }
     else {
-        h = h;
+        hour = hour;
     }
 
-    document.getElementById('Hour').innerHTML = h;
+    document.getElementById('Hour').innerHTML = hour;
     document.getElementById('Divider').innerHTML = divider;
-    document.getElementById('Minute').innerHTML = m;
+    document.getElementById('Minute').innerHTML = minute;
     
-    document.getElementById("Time").style.fontSize = fontSize + "px";
+    document.getElementById("Time").style.fontSize = timeFontSize + "px";
+    
+// *** Calendar *** //
+    
+    var day = today.getDay();
+    var month = today.getMonth();
+    var date = today.getDate();
+    
+    document.getElementById('Day').innerHTML = day;
+    document.getElementById('Month').innerHTML = month;
+    document.getElementById('Date').innerHTML = date;
+    
+    document.getElementById("Time").style.fontSize = calendarFontSize + "px";
 }
 
 function fixMinute(i) {

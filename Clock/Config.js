@@ -1,3 +1,4 @@
 var divider = ":";
 var twelveHour = true;
-var fontSize = 72;
+var timeFontSize = 72;
+var calendarFontSize = 60;
