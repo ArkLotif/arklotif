@@ -27,8 +27,26 @@ function startTime() {
     var month = today.getMonth();
     var date = today.getDate();
     
+    if (day == 0) {
+        day = "Sunday,";
+    }
+    if (day == 1) {
+        day = "Monday,";
+    }
+    if (day == 2) {
+        day = "Tuesday,";
+    }
     if (day == 3) {
-        day = "Wednesday";
+        day = "Wednesday,";
+    }
+    if (day == 4) {
+        day = "Thursday,";
+    }
+    if (day == 5) {
+        day = "Friday,";
+    }
+    if (day == 6) {
+        day = "Saturday,";
     }
     
     document.getElementById('Day').innerHTML = day;
