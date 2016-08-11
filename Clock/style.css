@@ -14,38 +14,5 @@ html, body {
 
 body {
   text-align: center;
-	color: #FFF;
-}
-
-div.container {
-	display: inline-block;
-}
-
-#time {
-	font-size:100px;
-	text-align:center;
-	font-family: Atami-Light;
-	margin-bottom:-12px;
-}
-
-#second {
-    font-size:29px;
-    position:absolute;
-    top:18px;
-}
-
-#meridiem {
-    font-size:21px;
-    position:absolute;
-}
-
-#timedate {
-	text-align:center;
-	font-family: Atami-Light;
-	font-size:16px;
-}
-
-#date{
-	display:inline;
-	margin-right: 20px;
+	color: #1a1a1a;
 }
