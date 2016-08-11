@@ -1,1 +1,1 @@
-var divider = ":";
+var divider = "qwert";
