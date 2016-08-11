@@ -53,6 +53,8 @@ function startTime() {
     document.getElementById('Date').innerHTML = date;
     
     document.getElementById("Time").style.fontSize = calendarFontSize + "px";
+    
+    var t = setTimeout(startTime, 500);
 }
 
 function fixMinute(i) {
