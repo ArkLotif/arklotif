@@ -17,3 +17,7 @@ body {
     font-family: Atami-Light;
     text-align: center;
 }
+
+#Day {
+    border: none;
+}
