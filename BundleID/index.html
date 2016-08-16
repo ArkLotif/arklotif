@@ -1,0 +1,62 @@
+<html><head>
+    <link rel="stylesheet" href="CSS.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700' type='text/css'>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Bundle Id Finder</title>
+	<!-- <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css"> -->
+</head>
+<body>
+	<div id="page">
+		<form id="searchform" class="pure-form">
+			<input type="search" id="search" class="pure-input-rounded">
+			<button type="submit" value="search" class="pure-button">Search</button>
+		</form>
+		<table id="results" class="pure-table pure-table-striped"><tbody><tr></tr></tbody></table>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript">
+	function getBundleId(searchvalue) {
+
+		$.getJSON("https://itunes.apple.com/search?limit=10&media=software&term="+searchvalue+"&callback=?", function(json) {
+		    for( var i = 0; i < 10; i++) {
+		    	var appName = json.results[i].trackName;
+		    	var appId = json.results[i].trackId;
+		    	var artworkUrl = json.results[i].artworkUrl100;
+		    	var artworkUrl_l = json.results[i].artworkUrl512;
+		    	var artistName = json.results[i].artistName;
+		    	var bundleId = json.results[i].bundleId;
+		    	var result = "<tr><td><a href=\""+artworkUrl_l+"\" download=\""+appName+".png\" target=\"_blank\"><img src=\""+artworkUrl+"\"/></a></td><td><h3>"+appName+"</h3><h4 id=\"app_"+appId+"\" class=\"bundleid\" onclick=\"copyToClipboard('"+appId+"')\">"+bundleId+"</h4>"+artistName+"</td></tr>";
+		    	$('#results').append(result);
+		    }
+		})
+
+	}
+	$( "#searchform" ).submit(function( event ) {
+		event.preventDefault();
+		$("#results").html(" ");
+		var searchfield = $("#search");
+		getBundleId(searchfield.val());
+
+	});
+	function copyToClipboard(id) {
+		var BundleId = $("#app_"+id);
+		var BundleIdText = BundleId.text();
+		BundleId.html("<input value=\""+BundleIdText+"\">");
+		BundleId.find("input").select();
+		document.execCommand("copy");
+		BundleId.find("input").focusout(function() {
+		    BundleId.html(BundleIdText);
+		})
+	}
+
+
+	
+	$( document ).ready(function() {
+		$("#search").select();
+	});
+
+	
+	</script>
+
+</body></html>
