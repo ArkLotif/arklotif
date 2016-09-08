@@ -9,16 +9,15 @@ padding: 0;
 }
 
 body {
-    color: #000;
+    background: #001525;
+}
+
+#Clock {
     text-align: center;
+    margin: 500px 0px 0px 0px;
 }
 
 #Time {
     font-family: Atami-Light;
-    text-align: center;
-}
-
-#Calendar {
-    font-family: Atami-Light;
-    text-align: center;
+    color: #fff;
 }
