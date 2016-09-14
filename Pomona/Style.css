@@ -54,7 +54,7 @@ body {
     cursor: pointer;
 }
 
-.dropbtn:hover, .dropbtn:focus {
+.DropdownButton:hover, .DropdownButton:focus {
     background-color: rgba(0,0,0,1);
 }
 
