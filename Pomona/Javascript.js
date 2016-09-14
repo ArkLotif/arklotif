@@ -1,6 +1,9 @@
 /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
-function Dropdown() {
+function AcademicsDropdown() {
     document.getElementById("Academics").classList.toggle("show");
+}
+
+function ArtsDropdown() {
     document.getElementById("Arts").classList.toggle("show");
 }
 
