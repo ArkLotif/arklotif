@@ -29,6 +29,16 @@ body {
     vertical-align: baseline;
 }
 
+.TitleDropdowns {
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    height: 64px;
+    line-height: 64px;
+    vertical-align: baseline;
+    float: right;
+}
+
 .DropdownButton {
     background-color: #4CAF50;
     color: white;
