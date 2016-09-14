@@ -19,6 +19,7 @@ body {
 
 .NavbarContent {
     width: 1680px;
+    height: 64px;
     margin: 0px auto;
 }
 
@@ -83,15 +84,15 @@ body {
     background-color: #fff;
     color: #212121;
     font-family: Roboto, sans-serif;
-    font-size: 18px;    
+    font-size: 15px;    
     font-weight: normal;
-    height: 64px;
-    line-height: 64px;
+    height: 48px;
+    line-height: 48px;
     vertical-align: baseline;
     border: none;
     cursor: pointer;
     margin: 0px;
-    padding: 0px 20px;
+    padding: 0px 16px;
     display: block;
     text-decoration: none;
 }
