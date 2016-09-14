@@ -25,6 +25,10 @@ function startTime() {
 
     document.getElementById('Clock').style.borderRadius = borderRadius + "px";
 
+    document.getElementById('Clock').style.width = widthPercent + "%";
+
+    document.getElementById('Clock').style.margin = topMargin + "px auto 0px auto";
+
     document.getElementById('Time').innerHTML = hour + divider + minute;
 }
 
