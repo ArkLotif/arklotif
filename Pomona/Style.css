@@ -17,6 +17,7 @@ body {
 
 .NavbarContent {
     width: 1680px;
+    margin: 0px auto;
 }
 
 .TitleText {
