@@ -22,7 +22,7 @@ body {
     margin: 0px auto;
 }
 
-.TitleText {
+.LeftNav {
     color: #fff;
     font-family: Roboto, sans-serif;
     font-size: 18px;
@@ -31,7 +31,7 @@ body {
     vertical-align: baseline;
 }
 
-.TitleDropdowns {
+.RightNav {
     color: #fff;
     font-family: Roboto, sans-serif;
     font-size: 18px;
