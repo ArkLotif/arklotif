@@ -33,6 +33,7 @@ body {
     height: 64px;
     line-height: 64px;
     vertical-align: baseline;
+    text-decoration: none;
 }
 
 .RightNav {
