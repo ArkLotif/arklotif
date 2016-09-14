@@ -10,10 +10,15 @@ body {
     right: 0;
     left: 0;
     height: 64px;
-    color: #f44336;
+    background: #f44336;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
 }
 
 h1 {
-    
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    height: 64px;
+    line-height: 64px;
+    vertical-align: baseline;
 }
