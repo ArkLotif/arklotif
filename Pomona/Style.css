@@ -3,6 +3,8 @@ body {
     font-weight: normal;
     color: rgba(0,0,0,.7);
     background: #fafafa;
+    margin: 0px;
+    padding: 0px;
 }
 
 .Navbar {
@@ -44,6 +46,7 @@ body {
     color: #fff;
     font-family: Roboto, sans-serif;
     font-size: 18px;    
+    font-weight: normal;
     height: 64px;
     line-height: 64px;
     vertical-align: baseline;
@@ -52,7 +55,7 @@ body {
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3e8e41;
+    background-color: rgba(0,0,0,1);
 }
 
 .dropdown {
