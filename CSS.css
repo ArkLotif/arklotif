@@ -26,3 +26,23 @@ body {
 .HeaderLink {
     margin: 0px 0px 0px 32px;
 }
+
+#Content {
+    padding: 128px 0px 0px 0px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.Shot {
+    width: 512px;
+    height: 512px;
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+.ShotImage {
+    width: 512px;
+    height: 512px;
+}
