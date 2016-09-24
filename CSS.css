@@ -42,9 +42,50 @@ body {
     box-shadow: 0px 8px 16px rgba(0,0,0,0.25);
     margin: 8px;
     display: inline-block;
+    position: relative;
 }
 
 .ShotImage {
     width: 512px;
     height: 512px;
+}
+
+.ShotOverlay {
+    top: 16px;
+    left: 16px;
+    width: 512px;
+    height: 512px;
+    background: rgba(53,37,76,0.6);
+    position: absolute;
+    opacity: 0.0;
+    transition: opacity 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.ShotText {
+    line-height: 512px;
+    text-align: center;
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 48px;
+}
+
+.ShotOverlay:hover {
+    top: 16px;
+    left: 16px;
+    width: 512px;
+    height: 512px;
+    background: rgba(53,37,76,0.6);
+    position: absolute;
+    opacity: 1.0;
+    transition: opacity 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.ShotText:hover {
+    line-height: 512px;
+    text-align: center;
+    color: #fff;
+    font-family: Open Sans;
+    font-size: 48px;
 }
