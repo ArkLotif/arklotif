@@ -131,6 +131,10 @@ body {
         height: 100%;
     }
 
+    .ShotOverlay {
+        display: none;
+    }
+
     .ShotText {
         text-align: center;
         color: #fff;
