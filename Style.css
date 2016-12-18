@@ -5,7 +5,7 @@ body {
 }
 
 #Email {
-	background: url(Assets/SVG/Email.svg);
+	background: url(http://arklotif.com/Assets/SVG/Email.svg);
 	background-repeat: no-repeat;
 	width: 80px;
 	height: 80px;
@@ -19,7 +19,7 @@ body {
 }
 
 #PayPal {
-	background: url(Assets/SVG/PayPal.svg);
+	background: url(http://arklotif.com/Assets/SVG/PayPal.svg);
 	background-repeat: no-repeat;
 	width: 80px;
 	height: 80px;
@@ -33,7 +33,7 @@ body {
 }
 
 #Logo {
-	background: url(Assets/SVG/Logo.svg);
+	background: url(http://arklotif.com/Assets/SVG/Logo.svg);
 	background-repeat: no-repeat;
 	width: 200px;
 	height: 200px;
@@ -47,7 +47,7 @@ body {
 }
 
 #Twitter {
-	background: url(Assets/SVG/Twitter.svg);
+	background: url(http://arklotif.com/Assets/SVG/Twitter.svg);
 	background-repeat: no-repeat;
 	width: 80px;
 	height: 80px;
@@ -61,7 +61,7 @@ body {
 }
 
 #Instagram {
-	background: url(Assets/SVG/Instagram.svg);
+	background: url(http://arklotif.com/Assets/SVG/Instagram.svg);
 	background-repeat: no-repeat;
 	width: 80px;
 	height: 80px;
@@ -123,7 +123,7 @@ body {
 
 @media (max-width: 1024px) {
 	#Email {
-		background: url(Assets/SVG/Email.svg);
+		background: url(http://arklotif.com/Assets/SVG/Email.svg);
 		background-repeat: no-repeat;
 		width: 80px;
 		height: 80px;
@@ -137,7 +137,7 @@ body {
 	}
 
 	#PayPal {
-		background: url(Assets/SVG/PayPal.svg);
+		background: url(http://arklotif.com/Assets/SVG/PayPal.svg);
 		background-repeat: no-repeat;
 		width: 80px;
 		height: 80px;
@@ -151,7 +151,7 @@ body {
 	}
 
 	#Logo {
-		background: url(Assets/SVG/Logo.svg);
+		background: url(http://arklotif.com/Assets/SVG/Logo.svg);
 		background-repeat: no-repeat;
 		width: 200px;
 		height: 200px;
@@ -165,7 +165,7 @@ body {
 	}
 
 	#Twitter {
-		background: url(Assets/SVG/Twitter.svg);
+		background: url(http://arklotif.com/Assets/SVG/Twitter.svg);
 		background-repeat: no-repeat;
 		width: 80px;
 		height: 80px;
@@ -179,7 +179,7 @@ body {
 	}
 
 	#Instagram {
-		background: url(Assets/SVG/Instagram.svg);
+		background: url(http://arklotif.com/Assets/SVG/Instagram.svg);
 		background-repeat: no-repeat;
 		width: 80px;
 		height: 80px;
