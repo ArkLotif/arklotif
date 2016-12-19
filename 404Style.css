@@ -1,0 +1,223 @@
+body {
+	background: #001a4d;
+	padding: 0;
+	margin: 0;
+}
+
+#Email {
+	background: url(http://arklotif.com/Assets/SVG/Email.svg);
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 80px;
+	font-size: 0;
+	position: fixed;
+	transform: translateX(-10%);
+	left: 10%;
+	top: 80px;
+	transition: all 0.25s ease;
+	z-index: 3;
+}
+
+#PayPal {
+	background: url(http://arklotif.com/Assets/SVG/PayPal.svg);
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 80px;
+	font-size: 0;
+	position: fixed;
+	transform: translateX(-25%);
+	left: 25%;
+	top: 80px;
+	transition: all 0.25s ease;
+	z-index: 3;
+}
+
+#Logo {
+	background: url(http://arklotif.com/Assets/SVG/Logo.svg);
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 200px;
+	font-size: 0;
+	position: fixed;
+	transform: translateX(-50%);
+	left: 50%;
+	top: 0;
+	transition: all 0.25s ease;
+	z-index: 3;
+}
+
+#Twitter {
+	background: url(http://arklotif.com/Assets/SVG/Twitter.svg);
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 80px;
+	font-size: 0;
+	position: fixed;
+	transform: translateX(-75%);
+	left: 75%;
+	top: 80px;
+	transition: all 0.25s ease;
+	z-index: 3;
+}
+
+#Instagram {
+	background: url(http://arklotif.com/Assets/SVG/Instagram.svg);
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 80px;
+	font-size: 0;
+	position: fixed;
+	transform: translateX(-90%);
+	left: 90%;
+	top: 80px;
+	transition: all 0.25s ease;
+	z-index: 3;
+}
+
+#Header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0px;
+	background: #3333cc;
+	position: fixed;
+	transition: all 0.25s ease-out;
+	z-index: 2;
+}
+
+#FourOhFour {
+	width: 25%;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 300px;
+}
+
+@media (min-width: 768px) {
+	#Content {
+		margin: 200px auto 50px auto;
+		width: 1536px;
+		text-align: center;
+		font-size: 0;
+	}
+
+	.Images {
+		width: 512px;
+		height: 512px;
+	}
+
+	.ImagesLong {
+		width: 1024px;
+		height: 512px;
+	}
+}
+
+@media (max-width: 1024px) {
+	#Email {
+		background: url(http://arklotif.com/Assets/SVG/Email.svg);
+		background-repeat: no-repeat;
+		width: 80px;
+		height: 80px;
+		font-size: 0;
+		position: fixed;
+		transform: translateX(-5%);
+		left: 5%;
+		top: 60px;
+		transition: all 0.25s ease;
+		z-index: 3;
+	}
+
+	#PayPal {
+		background: url(http://arklotif.com/Assets/SVG/PayPal.svg);
+		background-repeat: no-repeat;
+		width: 80px;
+		height: 80px;
+		font-size: 0;
+		position: fixed;
+		transform: translateX(-20%);
+		left: 20%;
+		top: 60px;
+		transition: all 0.25s ease;
+		z-index: 3;
+	}
+
+	#Logo {
+		background: url(http://arklotif.com/Assets/SVG/Logo.svg);
+		background-repeat: no-repeat;
+		width: 200px;
+		height: 200px;
+		font-size: 0;
+		position: fixed;
+		transform: translateX(-50%);
+		left: 50%;
+		top: 0;
+		transition: all 0.25s ease;
+		z-index: 3;
+	}
+
+	#Twitter {
+		background: url(http://arklotif.com/Assets/SVG/Twitter.svg);
+		background-repeat: no-repeat;
+		width: 80px;
+		height: 80px;
+		font-size: 0;
+		position: fixed;
+		transform: translateX(-80%);
+		left: 80%;
+		top: 60px;
+		transition: all 0.25s ease;
+		z-index: 3;
+	}
+
+	#Instagram {
+		background: url(http://arklotif.com/Assets/SVG/Instagram.svg);
+		background-repeat: no-repeat;
+		width: 80px;
+		height: 80px;
+		font-size: 0;
+		position: fixed;
+		transform: translateX(-95%);
+		left: 95%;
+		top: 60px;
+		transition: all 0.25s ease;
+		z-index: 3;
+	}
+
+	#Header {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 200px;
+		background: #3333cc;
+		position: fixed;
+		transition: all 0.25s ease-out;
+		z-index: 2;
+	}
+
+	#Content {
+		margin: 200px auto 0 auto;
+		width: 100%;
+		text-align: center;
+		font-size: 0;
+	}
+
+	.Images {
+		width: 50%;
+		height: auto;
+	}
+
+	.ImagesLong {
+		width: 100%;
+		height: auto;
+	}
+
+	#FourOhFour {
+		width: 80%;
+		height: auto;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		top: 300px;
+	}
+}
