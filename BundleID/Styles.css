@@ -48,6 +48,7 @@ table tr:nth-child(even) {
 }
 
 table td {
+	padding: 0px;
 }
 
 h3, h4 {
