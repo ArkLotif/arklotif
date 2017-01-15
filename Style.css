@@ -94,11 +94,11 @@ body {
 }
 
 #LinkSite {
-	background: url(http://arklotif.com/Assets/SVG/LinkImage.svg);
+	background: url(http://arklotif.com/Assets/SVG/LinkSite.svg);
 }
 
 #LinkImage {
-	background: url(http://arklotif.com/Assets/SVG/LinkSite.svg);
+	background: url(http://arklotif.com/Assets/SVG/LinkImage.svg);
 }
 
 .Card, .Image, .Info {
