@@ -175,33 +175,45 @@ h1 {
 	margin: 8px 8px 8px 0px;
 }
 
+
+
+
+
+
 @media (min-width: 1568px) {
 	#Content {
 		margin: 200px auto 50px auto;
 		width: 1536px;
 		text-align: center;
+		font-size: 0;
 	}
 
 	.Card, .Image, .Info {
 		width: 512px;
 		height: 512px;
+		display: inline-block;
 	}
 
 	.LongCard, .LongImage, .LongInfo {
 		width: 1024px;
 		height: 512px;
+		display: inline-block;
 	}
 
 	.InfoBar {
 		width: 512px;
 		height: 64px;
 		margin: 448px 0 0 0;
+		background: #fff;
+		display: block;
 	}
 
 	.LongInfoBar {
 		width: 1024px;
 		height: 64px;
 		margin: 448px 0 0 0;
+		background: #fff;
+		display: block;
 	}
 
 	h1 {
@@ -210,12 +222,17 @@ h1 {
 		color: #003399;
 		width: 50%;
 		float: left;
+		display: block;
 	}
 
 	.CardLink {
 		width: 24px;
 		height: 24px;
 		margin: 20px 20px 20px 0px;
+		background-repeat: no-repeat;
+		font-size: 0;
+		float: right;
+		display: block;
 	}
 }
 
