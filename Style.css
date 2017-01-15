@@ -2,6 +2,7 @@ body {
 	background: #001a4d;
 	padding: 0;
 	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 #Email {
@@ -92,34 +93,125 @@ body {
 	font-size: 0;
 }
 
-.Images {
+#LinkSite {
+	background: url(http://arklotif.com/Assets/SVG/LinkImage.svg);
+}
+
+#LinkImage {
+	background: url(http://arklotif.com/Assets/SVG/LinkSite.svg);
+}
+
+.Card, .Image, .Info {
 	width: 256px;
 	height: 256px;
+	display: inline-block;
 }
 
-.ImagesLong {
+.LongCard, .LongImage, .LongInfo {
 	width: 512px;
 	height: 256px;
+	display: inline-block;
 }
 
-@media (min-width: 768px) {
+.InfoBar {
+	width: 256px;
+	height: 32px;
+	margin: 224px 0 0 0;
+	background: #fff;
+}
+
+.LongInfoBar {
+	width: 512px;
+	height: 32px;
+	margin: 224px 0 0 0;
+	background: #fff;
+}
+
+.Info {
+	position: absolute;
+	opacity: 0.0;
+	transition: all 0.25s ease;
+}
+
+.Info:hover {
+	opacity: 1.0;
+	transition: all 0.25s ease;
+}
+
+.LongInfo {
+	position: absolute;
+	opacity: 0.0;
+	transition: all 0.25s ease;
+}
+
+.LongInfo:hover {
+	opacity: 1.0;
+	transition: all 0.25s ease;
+}
+
+h1 {
+	font-size: 16px;
+	margin: 8px;
+	text-align: left;
+	color: #003399;
+	width: 50%;
+	float: left;
+}
+
+.CardLink {
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 16px;
+	font-size: 0;
+	float: right;
+	margin: 8px 8px 8px 0px;
+}
+
+@media (min-width: 1568px) {
 	#Content {
 		margin: 200px auto 50px auto;
 		width: 1536px;
 		text-align: center;
-		font-size: 0;
 	}
 
-	.Images {
+	.Card, .Image, .Info {
 		width: 512px;
 		height: 512px;
 	}
 
-	.ImagesLong {
+	.LongCard, .LongImage, .LongInfo {
 		width: 1024px;
 		height: 512px;
 	}
+
+	.InfoBar {
+		width: 512px;
+		height: 64px;
+		margin: 448px 0 0 0;
+	}
+
+	.LongInfoBar {
+		width: 1024px;
+		height: 64px;
+		margin: 448px 0 0 0;
+	}
+
+	h1 {
+		font-size: 24px;
+		margin: 18px;
+		color: #003399;
+		width: 50%;
+		float: left;
+	}
+
+	.CardLink {
+		width: 24px;
+		height: 24px;
+		margin: 20px 20px 20px 0px;
+	}
 }
+
+
 
 @media (max-width: 1024px) {
 	#Email {
@@ -210,13 +302,31 @@ body {
 		font-size: 0;
 	}
 
-	.Images {
+	.Card {
 		width: 50%;
 		height: auto;
 	}
 
-	.ImagesLong {
+	.LongCard {
 		width: 100%;
 		height: auto;
+	}
+	
+	.Image {
+		width: 100%;
+		height: auto;
+	}
+	
+	.LongImage {
+		width: 100%;
+		height: auto;
+	}
+	
+	.Info {
+		display: none;
+	}
+	
+	.LongInfo {
+		display: none;
 	}
 }
