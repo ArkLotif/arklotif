@@ -331,24 +331,28 @@ h1 {
 		width: 50%;
 		height: auto;
 		display: inline-block;
+		font-size: 0;
 	}
 
 	.LongCard {
 		width: 100%;
 		height: auto;
 		display: inline-block;
+		font-size: 0;
 	}
 	
 	.Image {
 		width: 100%;
 		height: auto;
 		display: inline-block;
+		font-size: 0;
 	}
 	
 	.LongImage {
 		width: 100%;
 		height: auto;
 		display: inline-block;
+		font-size: 0;
 	}
 	
 	.Info {
