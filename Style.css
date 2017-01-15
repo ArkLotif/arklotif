@@ -118,6 +118,7 @@ body {
 	height: 32px;
 	margin: 224px 0 0 0;
 	background: #fff;
+	display: block;
 }
 
 .LongInfoBar {
@@ -125,27 +126,32 @@ body {
 	height: 32px;
 	margin: 224px 0 0 0;
 	background: #fff;
+	display: block;
 }
 
 .Info {
 	position: absolute;
 	opacity: 0.0;
+	display: block;
 	transition: all 0.25s ease;
 }
 
 .Info:hover {
 	opacity: 1.0;
+	display: block;
 	transition: all 0.25s ease;
 }
 
 .LongInfo {
 	position: absolute;
 	opacity: 0.0;
+	display: block;
 	transition: all 0.25s ease;
 }
 
 .LongInfo:hover {
 	opacity: 1.0;
+	display: block;
 	transition: all 0.25s ease;
 }
 
@@ -156,6 +162,7 @@ h1 {
 	color: #003399;
 	width: 50%;
 	float: left;
+	display: block;
 }
 
 .CardLink {
@@ -164,6 +171,7 @@ h1 {
 	height: 16px;
 	font-size: 0;
 	float: right;
+	display: block;
 	margin: 8px 8px 8px 0px;
 }
 
