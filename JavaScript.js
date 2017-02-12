@@ -29,7 +29,7 @@ $(window).scroll(function() {
 	else {
         //At Top//
         document.getElementById("Header").style.height = "256px";
-        document.getElementById("Header").style.background = "url(http://arklotif.com/Assets/Header/Pattern.svg)";
+        document.getElementById("Header").style.background = "url(http://arklotif.github.io/Assets/Header/Pattern.svg)";
         
         document.getElementById("Email").style.width = "108px";
         document.getElementById("Email").style.height = "108px";
