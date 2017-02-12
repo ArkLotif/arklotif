@@ -1,56 +1,54 @@
 if ($(window).width() > 1024) {
 $(window).scroll(function() {
-	if ($(this).scrollTop() > 1){
-		document.getElementById("Email").style.width = "40px";
-		document.getElementById("Email").style.height = "40px";
-		document.getElementById("Email").style.top = "30px";
-
-		document.getElementById("PayPal").style.width = "40px";
-		document.getElementById("PayPal").style.height = "40px";
-		document.getElementById("PayPal").style.top = "30px";
-		document.getElementById("PayPal").style.left = "20%";
-		document.getElementById("PayPal").style.transform = "translateX(-20%)";
-
-		document.getElementById("Logo").style.width = "100px";
-		document.getElementById("Logo").style.height = "100px";
-
-		document.getElementById("Twitter").style.width = "40px";
-		document.getElementById("Twitter").style.height = "40px";
-		document.getElementById("Twitter").style.top = "30px";
-		document.getElementById("Twitter").style.left = "80%";
-		document.getElementById("Twitter").style.transform = "translateX(-80%)";
-		
-		document.getElementById("Instagram").style.width = "40px";
-		document.getElementById("Instagram").style.height = "40px";
-		document.getElementById("Instagram").style.top = "30px";
-		
-		document.getElementById("Header").style.height = "100px";
+	if ($(this).scrollTop() > 50){
+        //Scrolled//
+        document.getElementById("Header").style.height = "128px";
+        document.getElementById("Header").style.background = "#121e59";
+        
+        document.getElementById("Email").style.width = "54px";
+        document.getElementById("Email").style.height = "54px";
+        document.getElementById("Email").style.marginTop = "37px";
+        
+        document.getElementById("PayPal").style.width = "54px";
+        document.getElementById("PayPal").style.height = "54px";
+        document.getElementById("PayPal").style.marginTop = "37px";
+        
+        document.getElementById("Instagram").style.width = "54px";
+        document.getElementById("Instagram").style.height = "54px";
+        document.getElementById("Instagram").style.marginTop = "37px";
+        
+        document.getElementById("Twitter").style.width = "54px";
+        document.getElementById("Twitter").style.height = "54px";
+        document.getElementById("Twitter").style.marginTop = "37px";
+        
+        document.getElementById("Logo").style.width = "128px";
+        document.getElementById("Logo").style.height = "88px";
+        document.getElementById("Logo").style.marginTop = "20px";
 	}
 
 	else {
-		document.getElementById("Email").style.width = "80px";
-		document.getElementById("Email").style.height = "80px";
-		document.getElementById("Email").style.top = "80px";
-
-		document.getElementById("PayPal").style.width = "80px";
-		document.getElementById("PayPal").style.height = "80px";
-		document.getElementById("PayPal").style.top = "80px";
-		document.getElementById("PayPal").style.left = "25%";
-		document.getElementById("PayPal").style.transform = "translateX(-25%)";
-
-		document.getElementById("Logo").style.width = "200px";
-		document.getElementById("Logo").style.height = "200px";
-
-		document.getElementById("Twitter").style.width = "80px";
-		document.getElementById("Twitter").style.height = "80px";
-		document.getElementById("Twitter").style.top = "80px";
-		document.getElementById("Twitter").style.left = "75%";
-		document.getElementById("Twitter").style.transform = "translateX(-75%)";
-		
-		document.getElementById("Instagram").style.width = "80px";
-		document.getElementById("Instagram").style.height = "80px";
-		document.getElementById("Instagram").style.top = "80px";
-		
-		document.getElementById("Header").style.height = "0px";
+        //At Top//
+        document.getElementById("Header").style.height = "256px";
+        document.getElementById("Header").style.background = "url(arklotif.com/Assets/Header/Pattern.svg)";
+        
+        document.getElementById("Email").style.width = "108px";
+        document.getElementById("Email").style.height = "108px";
+        document.getElementById("Email").style.marginTop = "83px";
+        
+        document.getElementById("PayPal").style.width = "108px";
+        document.getElementById("PayPal").style.height = "108px";
+        document.getElementById("PayPal").style.marginTop = "83px";
+        
+        document.getElementById("Instagram").style.width = "108px";
+        document.getElementById("Instagram").style.height = "108px";
+        document.getElementById("Instagram").style.marginTop = "83px";
+        
+        document.getElementById("Twitter").style.width = "108px";
+        document.getElementById("Twitter").style.height = "108px";
+        document.getElementById("Twitter").style.marginTop = "83px";
+        
+        document.getElementById("Logo").style.width = "256px";
+        document.getElementById("Logo").style.height = "176px";
+        document.getElementById("Logo").style.marginTop = "40px";
 	}
 })};
