@@ -14,11 +14,13 @@ body {
     background-repeat: repeat;
     background-size: contain;
 	transition: all 0.25s ease;
+    z-index: 100;
 }
 
 #HeaderContent {
     width: 1328px;
     margin: 0px auto;
+    z-index: 101;
 }
 
 .HeaderLinks {
@@ -27,6 +29,7 @@ body {
     height: 108px;
     margin-top: 83px;
 	transition: all 0.25s ease;
+    z-index: 102;
 }
 
 #Email {
@@ -61,6 +64,7 @@ body {
     right: 0;
     margin: 40px auto 0px auto;
 	transition: all 0.25s ease;
+    z-index: 102;
 }
 
 #Content {
@@ -68,6 +72,7 @@ body {
     margin: 0px auto;
     padding: 320px 0 0 0;
     text-align: center;
+    z-index: 1;
 }
 
 .Project {
@@ -100,12 +105,14 @@ h1 {
         background: url(http://arklotif.github.io/Assets/Header/Pattern.svg);
         background-repeat: repeat;
         background-size: contain;
-	   transition: all 0.25s ease;
+        transition: all 0.25s ease;
+        z-index: 100;
     }
 
     #HeaderContent {
         width: 90%;
         margin: 0px auto;
+        z-index: 101;
     }
 
     .HeaderLinks {
@@ -114,6 +121,7 @@ h1 {
         height: 64px;
         margin-top: 68px;
         transition: all 0.25s ease;
+        z-index: 102;
     }
     
     #PayPal {
@@ -138,6 +146,7 @@ h1 {
         right: 0;
         margin: 60px auto 0px auto;
 	   transition: all 0.25s ease;
+        z-index: 102;
     }
 
     #Content {
@@ -145,5 +154,6 @@ h1 {
         margin: 0px auto;
         padding: 320px 0 0 0;
         text-align: center;
+        z-index: 1;
     }
 }
