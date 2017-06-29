@@ -6,7 +6,7 @@ body {
 
 #Header {
     text-align: center;
-    margin: 32px;
+    margin: 32px 32px 0px 32px;
 }
 
 #Logo a {
@@ -51,7 +51,7 @@ body {
 }
 
 #Text {
-    margin-top: 64px;
+    margin-bottom: 64px;
 }
 
 #Text a {

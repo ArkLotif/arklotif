@@ -6,7 +6,7 @@ body {
 
 #Header {
     text-align: center;
-    margin: 32px;
+    margin: 32px 32px 0px 32px;
 }
 
 #Logo a {
@@ -48,6 +48,7 @@ body {
     display: block;
     text-align: center;
     font-size: 0;
+    margin: 32px 0px 32px 0px;
 }
 
 .Project {
