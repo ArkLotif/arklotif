@@ -5,6 +5,11 @@ body {
     text-align: center;
 }
 
+#LinkImage {
+    font-size: 0;
+    line-height: 0;
+}
+
 #Logo {
     margin: 4vh auto;
     height: 20vh;
@@ -33,49 +38,49 @@ a {
 }
 
 #Biscuit {
-    background: url(/Assets/Themes/Biscuit.png);
+    background: url(http://www.arklotif.com/Assets/Themes/Biscuit.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #Taffy {
-    background: url(/Assets/Themes/Taffy.png);
+    background: url(http://www.arklotif.com/Assets/Themes/Taffy.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #Slushi {
-    background: url(/Assets/Themes/Slushi.png);
+    background: url(http://www.arklotif.com/Assets/Themes/Slushi.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #Oyster {
-    background: url(/Assets/Themes/Oyster.png);
+    background: url(http://www.arklotif.com/Assets/Themes/Oyster.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #Waffle {
-    background: url(/Assets/Themes/Waffle.png);
+    background: url(http://www.arklotif.com/Assets/Themes/Waffle.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #Muffin {
-    background: url(/Assets/Themes/Muffin.png);
+    background: url(http://www.arklotif.com/Assets/Themes/Muffin.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 #Sausage {
-    background: url(/Assets/Themes/Sausage.png);
+    background: url(http://www.arklotif.com/Assets/Themes/Sausage.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;

@@ -5,6 +5,11 @@ body {
     text-align: center;
 }
 
+#LinkImage {
+    font-size: 0;
+    line-height: 0;
+}
+
 #Logo {
     margin: 5vh auto;
     height: 20vh;
