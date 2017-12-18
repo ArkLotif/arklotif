@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #4636f5;
+    text-align: center;
+}
+
+#Logo {
+    margin: 4vh auto;
+    height: 20vh;
+    filter: drop-shadow(0px 8px 4px rgba(0,0,0,0.2));
+}
+
+#Themes {
+    height: 70vh;
+}
+
+.Theme {
+    width: 35vh;
+    height: 35vh;
+    display: inline-block;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 4vh;
+    color: #fff;
+    margin: 0;
+    line-height: 35vh;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.75));
+}
+
+#Biscuit {
+    background: url(/Assets/Themes/Biscuit.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Taffy {
+    background: url(/Assets/Themes/Taffy.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Slushi {
+    background: url(/Assets/Themes/Slushi.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Oyster {
+    background: url(/Assets/Themes/Oyster.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Waffle {
+    background: url(/Assets/Themes/Waffle.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Muffin {
+    background: url(/Assets/Themes/Muffin.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Sausage {
+    background: url(/Assets/Themes/Sausage.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

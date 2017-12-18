@@ -1,26 +1,54 @@
 body {
     padding: 0;
     margin: 0;
-    background: #4e3ffa;
-    font-family: 'Montserrat', sans-serif;
+    background: #4636f5;
     text-align: center;
 }
 
-#Page {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
 #Logo {
-    width: 25vw;
-    height: 25vh;
+    margin: 5vh auto;
+    height: 20vh;
     filter: drop-shadow(0px 8px 4px rgba(0,0,0,0.2));
 }
 
-h1 {
-    font-weight: 800;
+#Tiles {
+    height: 40vh;
+}
+
+.Tile {
+    width: 40vh;
+    height: 40vh;
+    display: inline-block;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 6vh;
     color: #fff;
-    filter: drop-shadow(0px 8px 4px rgba(0,0,0,0.2));
+    margin: 0;
+    line-height: 40vh;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.2));
+}
+
+#Themes {
+    background: url(Assets/Main/Themes.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Work {
+    background: url(Assets/Main/Work.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Contact {
+    background: url(Assets/Main/Contact.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
