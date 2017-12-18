@@ -32,21 +32,7 @@ a {
     filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.2));
 }
 
-#Themes {
-    background: url(http://www.arklotif.com/Assets/Main/Themes.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#Work {
-    background: url(http://www.arklotif.com/Assets/Main/Work.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-#Contact {
+#Tiles {
     background: url(http://www.arklotif.com/Assets/Main/Contact.png);
     background-position: center;
     background-size: contain;
