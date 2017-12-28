@@ -1,0 +1,82 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #221980;
+}
+
+#LaunchPage {
+    width: 100%;
+    height: 100vh;
+}
+
+#Logo {
+    height: 30vh;
+    width: 30vh;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 35vh;
+    filter: drop-shadow(0px 0px 16px #182499);
+}
+
+#LogoImage {
+    height: 100%;
+    width: 100%;
+}
+
+#Background {
+    width: 100%;
+    height: 100%;
+    background: url(Assets/BG.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Content {
+    width: 80%;
+    margin: 10vh auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
+}
+
+.Images {
+    width: 100%;
+}
+@media screen and (max-aspect-ratio: 4/3) {
+    #Content {
+    width: 80%;
+    margin: 10vh auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
+}
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+#LaunchPage {
+    width: 100%;
+    height: 20vh;
+}
+
+#Logo {
+    height: 16vh;
+    width: 16vh;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 2vh;
+    filter: drop-shadow(0px 0px 16px #182499);
+}
+    
+#Content {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto-fit, 1fr);
+}
+}
