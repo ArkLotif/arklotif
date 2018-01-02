@@ -63,50 +63,19 @@ body, html {
 }
 
 #Content {
-    padding: 20vh 10vw 0 10vw;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1vw;
+    padding: 10vh 10vw 0 10vw;
 }
 
-.ImageContainer {
-    position: relative;
-    width: 19.25vw;
-    font-size: 0;
-}
-
-.Image {
-    width: 100%;
-    height: auto;
-}
-
-.Overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: #18171f;
-    opacity: 0.0;
-    transition: opacity 0.25s ease;
-}
-
-.Overlay:hover {
-    opacity: 0.8;
-    transition: opacity 0.25s ease;
-}
-
-.OverlayText {
+h1 {
     color: #d1e0ff;
-    font-size: 1.5vw;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    font-weight: 500;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+h2 {
+    color: #d1e0ff;
+    font-size: 2vw;
+    font-weight: 400;
 }
 
 @media screen and (max-aspect-ratio: 5/3){
@@ -137,17 +106,7 @@ body, html {
     
     #Content {
         padding: 25vh 10vw 0 10vw;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 0;
     }
-
-.ImageContainer {
-    width: 26.66vw;
-}
-
-.OverlayText {
-    font-size: 2vw;
-}
 }
 
 @media screen and (max-aspect-ratio: 1/1){
@@ -178,16 +137,18 @@ body, html {
     }
 
     #Content {
-        padding: 15vh 0 0 0;
-        grid-template-columns: 1fr;
-        grid-gap: 0;
+        padding: 15vh 5vw 0 5vw;
     }
 
-    .ImageContainer {
-        width: 100%;
-    }
-    
-    .OverlayText {
-        font-size: 8vw;
-    }
+h1 {
+    color: #d1e0ff;
+    font-size: 6vw;
+    font-weight: 600;
+}
+
+h2 {
+    color: #d1e0ff;
+    font-size: 4vw;
+    font-weight: 400;
+}
 }

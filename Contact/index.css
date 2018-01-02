@@ -65,13 +65,14 @@ body, html {
 #Content {
     padding: 20vh 10vw 0 10vw;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10vw;
 }
 
 .ImageContainer {
     position: relative;
     width: 19.25vw;
+    height: 19.25vw;
     font-size: 0;
 }
 
@@ -179,7 +180,7 @@ body, html {
 
     #Content {
         padding: 15vh 0 0 0;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 0;
     }
 
